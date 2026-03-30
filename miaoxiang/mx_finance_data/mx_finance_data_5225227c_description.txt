@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 主力资金净流入行业板块排名
+数据文件路径: D:\OpenClawData\.openclaw\workspace\miaoxiang\mx_finance_data\mx_finance_data_5225227c.xlsx
+描述文件路径: D:\OpenClawData\.openclaw\workspace\miaoxiang\mx_finance_data\mx_finance_data_5225227c_description.txt
+数据行数: 10
+表数量: 1
+Sheet 列表: 全部A股的(区间)净流入量(合计)、(区间)主力流入资金(合计

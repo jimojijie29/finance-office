@@ -1,0 +1,14 @@
+{
+  "fetchDate": "2026-03-16T14:50:53.595Z",
+  "targetDate": "2026-03-16",
+  "daysRange": 30,
+  "results": [
+    {
+      "key": "jasb",
+      "name": "Journal of Animal Science and Biotechnology",
+      "field": "动物科学与生物技术",
+      "publisher": "BMC",
+      "papers": []
+    }
+  ]
+}

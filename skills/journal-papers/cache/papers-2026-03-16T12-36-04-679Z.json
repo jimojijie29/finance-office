@@ -1,0 +1,14 @@
+{
+  "fetchDate": "2026-03-16T12:36:04.679Z",
+  "targetDate": "2026-03-16",
+  "daysRange": 7,
+  "results": [
+    {
+      "key": "food-chemistry",
+      "name": "Food Chemistry",
+      "field": "食品化学",
+      "publisher": "Elsevier",
+      "papers": []
+    }
+  ]
+}

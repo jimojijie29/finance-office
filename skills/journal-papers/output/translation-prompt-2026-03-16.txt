@@ -1,0 +1,55 @@
+请将以下学术论文标题翻译为中文。要求：
+
+1. 保持学术性和专业性
+2. 符合中文表达习惯
+3. 保留原文中的物种名、基因名、蛋白名等专有名词
+4. 输出格式：中文标题（简洁自然）
+
+待翻译论文列表：
+
+1. Antimalarial compounds from <em>Solanum nigrum</em>: <em>In vitro</em> antiplasmodial evaluation and network pharmacology-based investigation of host immunomodulatory mechanisms
+   期刊: Journal of Ethnopharmacology
+   作者: 
+
+2. Acute Developmental Toxicity and Cardiotoxicity of <em>Physalis alkekengi</em> L. Fruit and Calyx Extracts Based on Zebrafish (<em>Danio rerio</em>) Model
+   期刊: Journal of Ethnopharmacology
+   作者: 
+
+3. Rolling circle amplification-based self-assembled CpG nanoparticles: Immune activation and prevention of <em>Edwardsiella piscicida</em>
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+4. Bursicon homodimers enhance the expression of innate immune genes and delay WSSV-induced mortality in <em>Litopenaeus</em> <em>vannamei</em>
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+5. Rainbow trout (<em>Oncorhynchus mykiss</em>) G3BP1 function as an antiviral molecule against infectious hematopoietic necrosis virus infection
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+6. Serial comparative transcriptomics reveals dynamic and coordinated immune-metabolic responses in the liver-spleen axis of <em>Oplegnathus punctatus</em> to <em>Edwardsiella piscicida</em> infection
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+7. Development of sandwich ELISA for IL-10 quantification in olive flounder (<em>Paralichthys olivaceus</em>) and its application to protein-level analysis during viral hemorrhagic septicemia virus (VHSV) infection
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+8. Development and immunoprotective evaluation of a chitosan-based nanovaccine against <em>Aeromonas hydrophila</em> in Yangtze sturgeon (<em>Acipenser dabryanus</em>)
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+9. <em>Ca</em>IRF1 promotes antibacterial immune defense and acts as a vaccine adjuvant in <em>Chromileptes altivelis</em>
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+10. Identification and functional analysis of Bcl2-associated agonist of cell death (Bad) reveals its pro-apoptotic and antibacterial roles in <em>Cromileptes altivelis</em>
+   期刊: Fish & Shellfish Immunology
+   作者: 
+
+
+请按以下格式返回翻译结果：
+
+1. [中文标题]
+2. [中文标题]
+...

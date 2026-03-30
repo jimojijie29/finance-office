@@ -1,0 +1,24 @@
+# 敏感配置文件
+.env
+.env.local
+*_token*
+*_secret*
+*.pem
+*.key
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo

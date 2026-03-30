@@ -1,0 +1,549 @@
+{
+  "fetchDate": "2026-03-16T12:36:19.372Z",
+  "targetDate": "2026-03-16",
+  "daysRange": 30,
+  "results": [
+    {
+      "key": "food-chemistry",
+      "name": "Food Chemistry",
+      "field": "食品化学",
+      "publisher": "Elsevier",
+      "papers": []
+    },
+    {
+      "key": "jep",
+      "name": "Journal of Ethnopharmacology",
+      "field": "民族药理学",
+      "publisher": "Elsevier",
+      "papers": [
+        {
+          "title": "Antimalarial compounds from <em>Solanum nigrum</em>: <em>In vitro</em> antiplasmodial evaluation and network pharmacology-based investigation of host immunomodulatory mechanisms",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378874126003867?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 14 March 2026   Source:  Journal of Ethnopharmacology  Author(s): Appolinaire Tapche Fossouo, Gervais Mouthé Happi, Alain Tcho Tadjong, Cromwel Tepap Zemnou, Guy Paulin Mouthé Kemayou, Prosper Wanlo Mbeck, Ramelle Ngakam, Fernando Berton Zanchi, Emmanuel Ngeufa Happi, Jean Duplex Wansi",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Acute Developmental Toxicity and Cardiotoxicity of <em>Physalis alkekengi</em> L. Fruit and Calyx Extracts Based on Zebrafish (<em>Danio rerio</em>) Model",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S0378874126003855?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 14 March 2026   Source:  Journal of Ethnopharmacology  Author(s): Zhuoshuo Zhou, Weirong Sun, Liye Yang, Yue Li, Hongpeng Guo, Ximing Cui, Yanli Zhao, Jinlian Li, Gang Wang, Dongmei Wu",
+          "published": "2026-03-16"
+        }
+      ]
+    },
+    {
+      "key": "jasb",
+      "name": "Journal of Animal Science and Biotechnology",
+      "field": "动物科学与生物技术",
+      "publisher": "BMC",
+      "papers": []
+    },
+    {
+      "key": "fsi",
+      "name": "Fish & Shellfish Immunology",
+      "field": "鱼类与贝类免疫学",
+      "publisher": "Elsevier",
+      "papers": [
+        {
+          "title": "Rolling circle amplification-based self-assembled CpG nanoparticles: Immune activation and prevention of <em>Edwardsiella piscicida</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001646?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Wenmei Li, Chenchen Guo, Kaixin Wu, Qunrui Xie, Jianye Yang, Aiwen Shen, Qin Liu, Yuhong Ren",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Bursicon homodimers enhance the expression of innate immune genes and delay WSSV-induced mortality in <em>Litopenaeus</em> <em>vannamei</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001750?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Tippawan Boonkaew, Teerapong Ho, Apinunt Udomkit",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Rainbow trout (<em>Oncorhynchus mykiss</em>) G3BP1 function as an antiviral molecule against infectious hematopoietic necrosis virus infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001798?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jing-Zhuang Zhao, Yi-Zhi Shao, Wei-Tong Liu, Tong-Yan Lu, Li-Ming Xu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Serial comparative transcriptomics reveals dynamic and coordinated immune-metabolic responses in the liver-spleen axis of <em>Oplegnathus punctatus</em> to <em>Edwardsiella piscicida</em> infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001567?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Yang Liu, Runkai Sun, Ziyuan Wang, Weiwei Zheng, Bowen Hu, Lei Wang, Songlin Chen",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Development of sandwich ELISA for IL-10 quantification in olive flounder (<em>Paralichthys olivaceus</em>) and its application to protein-level analysis during viral hemorrhagic septicemia virus (VHSV) infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001749?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jin-Young Kim, Feberose Castro, Su-Mi Shin, Se Ryun Kwon, Sung-Ju Jung",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Development and immunoprotective evaluation of a chitosan-based nanovaccine against <em>Aeromonas hydrophila</em> in Yangtze sturgeon (<em>Acipenser dabryanus</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001634?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Yining Chen, Ying Qin, Jiachen Zhou, Ye Zhang, Chenwei Yu, Yacheng Hu, Yuanjin Yang, Dan Xu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "<em>Ca</em>IRF1 promotes antibacterial immune defense and acts as a vaccine adjuvant in <em>Chromileptes altivelis</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001671?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Guotao Wang, Ying Wu, Jue Lin, Chen Zhang, Zhenjie Cao, Jingqun Ao, Yongcan Zhou, Yun Sun",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Identification and functional analysis of Bcl2-associated agonist of cell death (Bad) reveals its pro-apoptotic and antibacterial roles in <em>Cromileptes altivelis</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001683?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jinying Zhang, Bingyang Liu, Lintao Meng, Longxiang You, Zhiru Liu, Ying Wu, Chen Zhang, Yongcan Zhou, Rouwen Chen, Zhenjie Cao, Yun Sun",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "The AhR/ROS-mediated lipid peroxidation pathway contributes to 6PPDQ-induced intestine-specific injury in zebrafish during embryonic development",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001725?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Zhe Wang, Yao Hu, Mingjun Zhu, Xinyue Yang, Qiancheng Huang, Anying Zhang, Xinyan Wang, Hong Zhou",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Antiviral activity of marine fungal polysaccharide AVP141-A against Singapore grouper iridovirus (SGIV) in vitro and <em>in vivo</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001695?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Xinyu Liao, Xiaohui Zheng, Li Mo, Weifu Mo, Yijie Lin, Xiaoyong Zhang, Qiwei Qin, Jingguang Wei",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Broad-spectrum antiviral activity of molnupiravir against fish rhabdoviruses through entry blockade and induced viral mutagenesis",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001713?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jing-Zhuang Zhao, Chun-yan Guan, Yi-Zhi Shao, Wei-Tong Liu, Tong-Yan Lu, Li-Ming Xu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "A proliferative subpopulation of coelomocytes in sea cucumber is identified and characterized by single-cell RNA-seq after evisceration",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S105046482600166X?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Zhenhui Wang, Yinan Wang, Yupeng Chen, Yuan Ren, Xiutang Yuan, Xuyuan Fan, Kaiyu Chen, Zhen Li, Chang Wei, Qiang Li",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Genome-wide characterization of the caspase family genes in different sturgeons: Insights into lineage-specific expansion and immune responses",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001440?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Hao Zhu, Yi Geng, Zhiqiong Li, Defang Chen",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Rfx5 acts as a master regulator of MHC class I and class II gene expression in zebrafish immunity",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001658?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Rui Liu, Xiangmin Zhang, Xiu Yin, Ailong Zhang, Yunchao Wang, Lu Wang, Guangdong Ji, Hongyan Li",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Development of anti-CD4-1/CD8β monoclonal antibodies and spatiotemporal immune profiling of response to live attenuated IHNV in rainbow trout (<em>Oncorhynchus mykiss</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001610?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Shuaibo Li, Yulu Ma, Rui Ao, Dandan Zhao, Xueting Guan, Gefeng Xu, Xinjia Lv, Min Liu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Virus-host metabolic interaction: SGIV-induced protein lactylation suppresses viral propagation",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001622?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Mingming Zhao, Jiaxi Li, Mingzhu Liu, Ying Pan, Sining Su, Xiangmou Qin, Yanxia Gao, Lin Huang, Junxiang Lai, Jia Cai, Huapu Chen, Qing Yu, Pengfei Li",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Functional characterization of interferon-induced protein 44-like in <em>Amphiprion clarkii</em>: Expression profiles, immunomodulatory activity, and antiviral function",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001427?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Yasara Kavindi Kodagoda, D.C.G. Rodrigo, U.P.E. Arachchi, E.M.T. Tharanga, H.A.C.R. Hanchapola, D.M.K.P. Sirisena, D.S. Liyanage, W.K.M. Omeka, Jeongeun Kim, Taehyug Jeong, Gaeun Kim, Qiang Wan, Jihun Lee, Jehee Lee",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Identification and functional study of <em>CDK</em> gene family in cell proliferation in the Chinese mitten crab (<em>Eriocheir</em> <em>sinensis</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001397?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Wen Zhang, Zifeng Wang, Chaohui Xu, Guoqing Shen, Youting Zhu, Weiwei Li, Qun Wang, Xinpeng Fan",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "<em>Cc</em>FTR54 restricts spring viremia of carp virus replication by promoting p62-mediated autophagic degradation of N protein",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001579?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Rongrong Liu, Hongxia Gao, Xin Li, Guiwen Yang, Hua Li, Shijuan Shan",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Immune regulation of hypoxia inducible factor alpha (HIF-1α) in the jawless vertebrate lamprey (<em>Lethenteron</em> <em>camtschaticum</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001609?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jiayi Qiao, Yitong Li, Tao Wang, Dexin Zhao, Qingwei Li, Yue Pang, Meng Gou, Jiali Lu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Dietary myo-inositol exerts pleiotropic effects on T cell activation, antioxidant defense and fatty acid metabolism to enhance anti-bacterial immunity in tilapia",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001555?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Zhichao Fang, Yuying Zheng, Minghui Zhang, Jiaying Xie, Chenxin Shen, Yating Zhu, Qiqi Jiang, Yishan Lu, Xiumei Wei, Jialong Yang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Characteristics comparison and functional analysis of TLR5S in two mandarin fish species (<em>Siniperca scherzeri</em> and <em>Siniperca chuatsi</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001531?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Xinhai Zhu, Chencheng Hu, Liying Zhou, Qieqi Qian, Anting Chen, Xiaojian Gao, Qun Jiang, Yao Zhang, Guoxing Liu, Xiaojun Zhang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Dietary ferulic acid boosts the immunity and antioxidant activity of T lymphocytes in Nile tilapia (<em>Oreochromis niloticus</em>) challenged with <em>Aeromonas hydrophila</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001543?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Jiansong Zhang, Yuqing Yang, Jingwen Chang, Jingfeng Ding, Shiqi Tang, Yishan Lu, Xiumei Wei, Jialong Yang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "<em>Aeromonas hydrophila</em> induces mitophagy for intracellular survival through its secreted effectors in the splenic macrophages of grass carp (<em>Ctenopharyngodon idella</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S105046482600152X?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Xiaoyu Ma, Rong Ye, Wansong Li, Zhenhong Ou, Hong Zhou",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Immunomodulatory and anti-apoptotic effects of heme oxygenase-1 in hypoxia stress of small yellow croaker (<em>Larimichthys polyactis</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S105046482600135X?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Yang Liu, Qiaoling Yang, Xuebin Zheng, Li Wang, Jingqian Wang, Congcong Hou, Feng Liu, Junquan Zhu, Bao Lou",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Sampling conditions affect immune cell viability and function in the Mediterranean mussel (<em>Mytilus galloprovincialis</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001518?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Teresina De Iorio, Chiara Profico, Fabrizio Capoccioni, Gabriella Di Francesco, Federica Di Giacinto, Arianna Martini, Marco Martinoli, Riccardo Napolitano, Nicolò Tonachella, Domitilla Pulcini",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Expression and function of zebrafish carboxypeptidase A5 in neutrophils and mast cells",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001439?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Ziyan Wu, Yunjia Hu, Songen Xu, Zhibin Huang, Wenqing Zhang, Wei Liu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Aquafeed containing raw or hydrolysed <em>Nannochloropsis gaditana</em> differently modulate the intestinal immune system of gilthead seabream",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001403?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Fernando Méndez-Vivancos, María Isabel Sáez, Alba Galafat, Francisco Javier Alarcón-López, Tomás Francisco Martínez, Alberto Cuesta, Marta Arizcun, Elena Chaves-Pozo",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "The class B scavenger receptor 2 act as a proviral factor in largemouth bass ranavirus infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001373?dgcid=rss_sd_all",
+          "abstract": "Publication date: June 2026   Source:  Fish & Shellfish Immunology, Volume 173  Author(s): Feixiang Zhang, Yiqun Li, Nan Jiang, Zhenyu Huang, Yan Meng, Chen Peng, Yuding Fan, Yong Zhou",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Family identification to functional validation: CathepsinB emerges as a key apoptotic regulator in large yellow croaker (<em>Larimichthys crocea</em>) under <em>Pseudomonas plecoglossicida</em> stress",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001385?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yadong Xue, Yaozu Lv, Dianyang Zhou, Zhennan Sun, Xiumei Liu, Xubo Wang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Identification and expression analysis of scavenger receptor SCARA4 in <em>Nibea albiflora</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001361?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Ying Zhang, Xiaoxian Guo, Xu Zhou, Dongdong Xu, Changfeng Chi, Zhenming Lü, Huihui Liu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Grass carp pyruvate kinase PKM acts as a key viral helper by orchestrating NS80-mediated VIB formation and multifaceted inhibition of the RLR-IFN-STAT1 antiviral cascade",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001415?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Mu Niu Yang, Yang Chen, Ming Xian Chang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Functional characterization of the Rab11 and its response to SGIV infection in the orange-spotted grouper (<em>Epinephelus coioides</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001348?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Liqun Wang, Haiqing Li, Yanjie Shi, Weicong Li, Wenjie Gao, Deqi Wu, Shaowen Wang, Qiwei Qin",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Exploring the pathogenesis of <em>Anophryoides haemophila</em> infection: impacts on immune responses in American lobster (<em>Homarus americanus</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001324?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Zohreh Fazelan, Spencer J. Greenwood, K. Fraser Clark",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Functional characterization of a canonical C-type lectin from <em>Mytilus coruscus</em>: Roles in innate immunity and feeding processes",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001312?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Ying-rong Jin, Chuan-yue Chen, Ze-kai Wang, Pan Qin, Zhi Liao, Xiao-lin Zhang, Xiao-jun Yan",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Grass carp NLRP12-like 2 facilitates GCRV replication by disrupting the NLRP3-ASC inflammasome axis",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001336?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Li Qiang Zhang, Xiao Man Wu, Lu Yi Liu, Ming Xian Chang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Oral administration of IFN-γrel elicits antiviral immunity and enhances protective efficacy against LMBV in largemouth bass (<em>Micropterus salmoides</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001300?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Zemiao Zhang, Sen Yang, Xuan Zhang, Juncheng Liu, Tao Xu, Jiemin Xian, Youhua Huang, Qiwei Qin, Sheng Zhou",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Molecular characterization and functional analysis of EBF1 reveals its critical role in B-cell immunity in Nile tilapia",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001294?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Jiayi Xu, Yongxiong Huang, Yu Huang, Jichang Jian",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Construction of a multi-tissue immune atlas for Chinese tongue sole (<em>Cynoglossus semilaevis</em>) reveals granulocyte functional adaptation and underlying regulatory mechanisms",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001191?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yanan Li, Xianghui Zhang, Shuo Li, Xiang Liu, Yingyi Huang, Hong-Yan Wang, Kaiqiang Liu, Qian Wang, Yuyan Liu, Changwei Shao",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Cloning and functional characterization of <em>Pc</em>ficolin1 and <em>Pc</em>ficolin2 in red swamp crayfish (<em>Procambarus clarkii</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001270?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Lu Wang, Xia Zhu, Hao He, Xiaohui Ai, Xiaoyan Liu, Guihong Fu, Yibin Yang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Identification of an <em>isg15</em> gene in Nile tilapia (<em>Oreochromis niloticus</em>) and analysis of its role in immune response modulation",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001208?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yan Wang, Wenxin Tang, Guichun Wu, Jiaojiao He, Hanjie Gu, Yonghua Hu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Dietary incorporation of gut-derived probiotics from fast-growing white shrimp, <em>Penaeus vannamei</em> to boost growth and health performance in white shrimp",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S105046482600118X?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Ann-Chang Cheng, Pimrawee Chaemlek, Phongchate Pichitkul, Chun-Hung Liu",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Intraperitoneal injection of <em>Chaetomorpha aerea</em> extract boosted immunocompetence, antioxidant status and disease resistance against <em>Aeromonas hydrophila</em> in grey mullet, <em>Mugil cephalus</em> juveniles",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001178?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Hairui Yu, Govindharajan Sattanathan, Swaminathan Padmapriya, Baskaran Kamalapreetha, Balamuralikrishnan Balasubramanian, Ramasamy Rajesh, Sournamanikam Venkatalakshmi, Vignesh Marimuthu, Udaya Prakash Nyayiru Kannaian, Mansour Torf Mozanzadeh",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "The caspase Dronc in <em>Penaeus vannamei</em> (<em>Pv</em>caspase Dronc) orchestrates apoptotic clearance of <em>Vibrio alginolyticus</em> infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001166?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Haixi Li, Zhengxinyu Liu, Cuiju Chen, Zhenhua Liang, Hao Long, Xin Zhang, Zhenyu Xie",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Matrine inhibits SGIV infection via regulation of the inflammatory and oxidative stress response",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001154?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Youfu Luo, Mengke Liu, Dongmiao Xiao, Xinyi Ren, Qiwei Qin, Youhua Huang, Xiaohong Huang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "UuPGRP, a peptidoglycan recognition protein of <em>Urechis unicinctus</em>, promotes immune defense against bacterial infection",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001142?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yulie Qiu, Chenxi Shi, Xupeng Li, Xudong Jiao, Jian Zhang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Dietary 5-aminolevulinic acid induces strain-specific effects on shell color and innate immunity in Pacific oyster (<em>Crassostrea gigas</em>) through divergent porphyrin metabolism",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001130?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Biyang Hu, Hong Yu, Chengxun Xu, Lingfeng Kong, Shikai Liu, Shaojun Du, Qi Li",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "GABA-mediated neuroendocrine–immune regulation in <em>Penaeus vannamei</em> under low-salinity stress",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001129?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yuan Duan, Qun Zhao, Yifan Lu, Shiqi Li, Wenbo Wu, Erchao Li, Ardavan Farhadi",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "<em>In vitro</em> and <em>in vivo</em> antiviral effects of myrcene on MSRV infection in largemouth bass (<em>Micropterus salmoides</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001099?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Zhengzhao Liu, Lin Huang, Jieying Yu, Qing Yu, Mingzhu Liu, Yanxia Gao, Xiangmou Qin, Junxiang Lai, Fei Ling, Yanlei Chang, Shuyu Han, Jia Cai, Pengfei Li",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Integrated multi-omics and biochemical insights into ammonia-induced oxidative stress, metabolic disruption, and apoptosis in <em>Macrobrachium rosenbergii</em> gills",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001063?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Nusrat Liaqat, Xuenan Li, Huici Yang, Sayed M. Aboleila, kiran shahzadi, Nauman Khan, Nader N. Hassona, Xilin Dai",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Expression dynamics of sex-biased development- and immune-related genes are associated with early gonadal differentiation in grass carp",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001051?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Lei Zhang, Zeyu Li, Shuai Li, Yuan Meng, Xinyi Yang, Yuqing Li, Zhen Xu, Yuying Sun, Yu Huang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "A Serpine1-F2-PAR1 axis facilitates apoptosis and disease severity during GCRV infection in grass carp",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826000884?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Yangyang Li, Liangming Chen, Bin Gui, Changchun Yu, Jinyan Lei, Yuxuan Shao, Haiping Liu, Zuoyan Zhu, Yaping Wang, Rong Huang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "RNA-sequencing reveals ECM-remodeling and tumorigenesis in Pacific mackerel with Puffy Snout Syndrome",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826000859?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Savanah L. Leidholt, Kalia Bistolas, Manoj Pastey, Mark Dasenko, Emily Miller, Alexander Norton, Kyle S. Van Houtan, Andre Boustany, Tatiana Galvin, Rebecca Vega Thurber",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Effects of dietary fermented sugar kelp (<em>Saccharina latissima</em>) on intestinal histology, antioxidant capacity, and immune-related biomarkers of post-smolt Atlantic salmon (<em>Salmo salar</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826000835?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Sahar Sartipiyarahmadi, Ingvild Lunderød Øverbø, Benjamin Costas, Lourenço Ramos-Pinto, Nina S. Liland, Harald Sveier, Silje Steinsund, Tom Johnny Hansen, Øivind Strand, Jan Vidar Jakobsen, Antony J. Prabhu Philip, Sofie C. Remø",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Identification and expression profile of serotonin receptors in the developmental stages and hemocytes of the Pacific oyster (<em>Crassostrea gigas</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826000525?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s): Minhui Xu, Miren Dong, Xiaolong Gao, Wei Wu, Lingling Wang, Chunlin Wang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Editorial Board",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001488?dgcid=rss_sd_all",
+          "abstract": "Publication date: May 2026   Source:  Fish & Shellfish Immunology, Volume 172  Author(s):",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Genomic Insights and Vaccine Evaluation of a Virulent MLST ST234 <em>Bacillus cereus</em> Infecting Asian Sea Bass (<em>Lates calcarifer</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001774?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 14 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Li-Wu Cheng, Qiong-Yi Huang, Nopadon Pirarat, Abisheik Rajandran, Saiyuj Poudel, Pei-Chi Wang, Shih-Chu Chen",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "IFN-gamma-related gene (IFN-γrel) exert its antibacterial effects through IRF1 in humpback grouper (<em>Cromileptes altivelis</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001737?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 14 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Ying Wu, Ziyu Wang, Zikai He, Jinge Wang, Guotao Wang, Hong Chen, Zhenjie Cao, Chen Zhang, Jingqun Ao, Yongcan Zhou, Yun Sun",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Divergent immune dynamics in European perch (<em>Perca fluviatilis</em>): Population-specific responses of peritoneal cells to <em>Aeromonas hydrophila</em>",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001816?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 14 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Tatyana Gebauer, Jan Kouřil, Vlastimil Stejskal, Tomáš Korytář, Alexander Rebl",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Recombinant IL-21 alleviates bacterial enteritis in grass carp by enhancing the intestinal barrier and suppressing the inflammatory response",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001762?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 13 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Gaoliang Yuan, Xin Lin, Liying Qin, Xu Pu, Dexiang Feng, Yanwei Zhang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Immunological functional studies of a putative lipocalin member LcApoM_AGPRP in large yellow croaker (<em>Larimichthys crocea</em>)",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001786?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 13 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Ruyu Huang, Chunmei Yan, Yingge Lv, Yani Jin, Dongling Zhang",
+          "published": "2026-03-16"
+        },
+        {
+          "title": "Trout Granulomatous Virus (TGV) infection is associated with disruption of gill morphology, endothelial damage, and local immune responses in rainbow trout",
+          "authors": [],
+          "doi": "",
+          "url": "https://www.sciencedirect.com/science/article/pii/S1050464826001701?dgcid=rss_sd_all",
+          "abstract": "Publication date: Available online 10 March 2026   Source:  Fish & Shellfish Immunology  Author(s): Ximena Amortegui, Sharon Karniely, Avi Eldar, Reuven Wiener, Sayanika Banerjee, Polina Zeltser, Rachel Zamostiano, Eran Bacharach, Irene Salinas",
+          "published": "2026-03-16"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+金融数据查询结果说明
+========================================
+查询内容: 两市融资净流入行业板块排名
+数据文件路径: D:\OpenClawData\.openclaw\workspace\miaoxiang\mx_finance_data\mx_finance_data_c773470f.xlsx
+描述文件路径: D:\OpenClawData\.openclaw\workspace\miaoxiang\mx_finance_data\mx_finance_data_c773470f_description.txt
+数据行数: 11
+表数量: 2
+Sheet 列表: 全部A股的融资余额, 全部A股的(区间)净流入量(合计)、(区间)主力流入资金(合计
