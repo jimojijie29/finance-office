@@ -1,0 +1,42 @@
+{
+  "name": "us-treasury-yields",
+  "version": "1.0.0",
+  "description": "美国国债收益率数据获取与可视化Skill。自动获取各期限国债收益率数据（1月-30年），生成交互式可视化图表。",
+  "author": "OpenClaw User",
+  "license": "MIT",
+  "entry": {
+    "script": "scripts/update_us_treasury_data.py",
+    "type": "python"
+  },
+  "schedule": {
+    "cron": "0 9 * * MON",
+    "timezone": "America/New_York",
+    "description": "每周一上午9点执行（美东时间）"
+  },
+  "dependencies": {
+    "python": ["pandas", "requests"],
+    "r": ["plotly", "tidyr", "dplyr", "htmlwidgets", "htmltools"],
+    "skills": ["mx-macro-data"]
+  },
+  "config": {
+    "data_dir": {
+      "description": "数据输出目录",
+      "default": "skills/us-treasury-yields/data"
+    },
+    "mx_macro_skill_path": {
+      "description": "mx-macro-data Skill路径",
+      "default": "skills/mx-macro-data"
+    }
+  },
+  "outputs": [
+    {
+      "file": "skills/us-treasury-yields/data/us_treasury_yields_all_terms.csv",
+      "description": "美国国债收益率历史数据"
+    },
+    {
+      "file": "skills/us-treasury-yields/data/us_treasury_all_terms.html",
+      "description": "交互式可视化图表"
+    }
+  ],
+  "tags": ["finance", "treasury", "bonds", "yields", "us-market", "visualization"]
+}

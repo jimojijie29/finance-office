@@ -34,13 +34,13 @@ df <- read.csv("us_treasury_yields_all_terms.csv", fileEncoding = "UTF-8")
 df$date <- as.Date(df$date)
 
 # ============================================
-# Step 2: 数据重塑（宽格式 → 长格式）
+# Step 2: 数据重塑（宽格式 \u2192 长格式）
 # ============================================
 # 获取所有可用的期限列（排除date列）
 available_cols <- setdiff(names(df), "date")
 
 # 定义完整的期限映射（使用Unicode转义避免编码问题）
-all_maturities <- c("X1月", "X3月", "X6月", "X1年", "X2年", "X3年", "X5年", "X7年", "X10年", "X20年", "X30年")
+all_maturities <- c("X1\u6708", "X3\u6708", "X6\u6708", "X1\u5e74", "X2\u5e74", "X3\u5e74", "X5\u5e74", "X7\u5e74", "X10\u5e74", "X20\u5e74", "X30\u5e74")
 all_labels <- c("1\u6708\u671f", "3\u6708\u671f", "6\u6708\u671f", "1\u5e74\u671f", "2\u5e74\u671f", "3\u5e74\u671f", "5\u5e74\u671f", "7\u5e74\u671f", "10\u5e74\u671f", "20\u5e74\u671f", "30\u5e74\u671f")
 
 # 过滤出实际存在的列
@@ -61,17 +61,17 @@ df_long <- df %>%
 # Step 3: 定义颜色映射（动态根据可用期限）
 # ============================================
 colors <- c(
-  "1月期" = "#E53935",   # 红色（超短期）
-  "3月期" = "#FB8C00",   # 橙色
-  "6月期" = "#FDD835",   # 黄色
-  "1年期" = "#7CB342",   # 浅绿
-  "2年期" = "#00897B",   # 青绿
-  "3年期" = "#039BE5",   # 浅蓝
-  "5年期" = "#3949AB",   # 靛蓝
-  "7年期" = "#8E24AA",   # 紫色
-  "10年期" = "#D81B60",  # 玫红（长期基准）
-  "20年期" = "#5E35B1",  # 深紫
-  "30年期" = "#1E88E5"   # 深蓝
+  "1\u6708\u671f" = "#E53935",   # \u7ea2\u8272\uff08\u8d85\u77ed\u671f\uff09
+  "3\u6708\u671f" = "#FB8C00",   # \u6a59\u8272
+  "6\u6708\u671f" = "#FDD835",   # \u9ec4\u8272
+  "1\u5e74\u671f" = "#7CB342",   # \u6d45\u7eff
+  "2\u5e74\u671f" = "#00897B",   # \u9752\u7eff
+  "3\u5e74\u671f" = "#039BE5",   # \u6d45\u84dd
+  "5\u5e74\u671f" = "#3949AB",   # \u975b\u84dd
+  "7\u5e74\u671f" = "#8E24AA",   # \u7d2b\u8272
+  "10\u5e74\u671f" = "#D81B60",  # \u73ab\u7ea2\uff08\u957f\u671f\u57fa\u51c6\uff09
+  "20\u5e74\u671f" = "#5E35B1",  # \u6df1\u7d2b
+  "30\u5e74\u671f" = "#1E88E5"   # \u6df1\u84dd
 )
 
 # 只保留实际存在的期限的颜色
@@ -96,8 +96,8 @@ for (mat in active_maturities) {
     line = list(color = active_colors[[mat]], width = 2.5),
     hovertemplate = paste0(
       "<b>", mat, "</b><br>",
-      "日期: %{x|%Y-%m-%d}<br>",
-      "收益率: %{y:.3f}%<br>",
+      "\u65e5\u671f: %{x|%Y-%m-%d}<br>",
+      "\u6536\u76ca\u7387: %{y:.3f}%<br>",
       "<extra></extra>"
     ),
     visible = TRUE
@@ -134,23 +134,28 @@ fig <- fig %>% layout(
   xaxis = list(
     title = "",
     tickformat = "%Y-%m",
-    tickangle = -45,
-    rangeslider = list(visible = TRUE),
+    tickangle = -30,
+    rangeslider = list(visible = TRUE, thickness = 0.08),
     rangeselector = list(
       buttons = list(
-        list(count = 3, label = "3月", step = "month", stepmode = "backward"),
-        list(count = 6, label = "6月", step = "month", stepmode = "backward"),
-        list(count = 1, label = "1年", step = "year", stepmode = "backward"),
-        list(count = 2, label = "2年", step = "year", stepmode = "backward"),
-        list(step = "all", label = "全部")
-      )
+        list(count = 3, label = "3\u6708", step = "month", stepmode = "backward"),
+        list(count = 6, label = "6\u6708", step = "month", stepmode = "backward"),
+        list(count = 1, label = "1\u5e74", step = "year", stepmode = "backward"),
+        list(count = 2, label = "2\u5e74", step = "year", stepmode = "backward"),
+        list(step = "all", label = "\u5168\u90e8")
+      ),
+      x = 0,
+      xanchor = "left",
+      y = 1.12,
+      yanchor = "top"
     ),
     showgrid = TRUE,
-    gridcolor = "#E0E0E0"
+    gridcolor = "#E0E0E0",
+    domain = c(0, 1)
   ),
   
   yaxis = list(
-    title = "收益率 (%)",
+    title = "\u6536\u76ca\u7387 (%)",
     tickformat = ".2f",
     hoverformat = ".3f",
     showgrid = TRUE,
@@ -160,24 +165,26 @@ fig <- fig %>% layout(
   hovermode = "x unified",
   
   # 图例配置 - 关键：itemclick = "toggle" 实现多选
+  # 将图例移到顶部，节省底部空间
   legend = list(
     orientation = "h",
-    yanchor = "top",
-    y = -0.15,
+    yanchor = "bottom",
+    y = 1.02,  # 放在图表上方
     xanchor = "center",
     x = 0.5,
-    bgcolor = "rgba(255,255,255,0.95)",
+    bgcolor = "rgba(255,255,255,0.8)",
     bordercolor = "#BDBDBD",
     borderwidth = 1,
-    font = list(size = 12),
-    title = list(text = "<b>\u70b9\u51fb\u5207\u6362\u663e\u793a/\u9690\u85cf:</b>"),
+    font = list(size = 11),
+    title = list(text = ""),
     itemclick = "toggle",
     itemdoubleclick = "toggleothers"
   ),
   
   plot_bgcolor = "#FAFAFA",
   paper_bgcolor = "white",
-  margin = list(l = 60, r = 40, t = 80, b = 160)
+  # 调整边距：顶部留出图例空间，底部减小，增加图表区域
+  margin = list(l = 60, r = 40, t = 120, b = 60)
   
   # 注意：移除了 updatemenus 按钮组，使用图例进行多选
 )
