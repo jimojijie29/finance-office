@@ -302,7 +302,7 @@ def main():
         except subprocess.CalledProcessError as e:
             print(f"Error running R visualization script: {e}")
             print(f"stdout: {e.stdout}")
-            print(f"stderr: {e.stderr}
+            print(f"stderr: {e.stderr}")
             raise  # 重新抛出异常以便记录失败状态
         except FileNotFoundError:
             print("Warning: Rscript not found. Please ensure R is installed and in PATH.")
