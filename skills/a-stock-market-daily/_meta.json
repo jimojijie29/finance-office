@@ -1,0 +1,58 @@
+{
+  "name": "a-stock-market-daily",
+  "version": "1.0.0",
+  "description": "A股两市行情数据每日自动更新Skill。获取上证指数、深证成指日线数据，融资融券交易汇总数据，生成综合市场数据文件和可视化图表。",
+  "author": "OpenClaw User",
+  "license": "MIT",
+  "entry": {
+    "script": "scripts/update_daily_market_data.py",
+    "type": "python"
+  },
+  "schedule": {
+    "cron": "30 9 * * MON-FRI",
+    "timezone": "Asia/Shanghai",
+    "description": "工作日09:30执行"
+  },
+  "dependencies": {
+    "python": ["pandas", "requests"],
+    "r": ["readr", "dplyr", "plotly", "htmlwidgets", "lubridate"]
+  },
+  "config": {
+    "tushare_token": {
+      "description": "Tushare API Token",
+      "env": "TUSHARE_TOKEN",
+      "default": "242e48c14fbf0c72ffd3"
+    },
+    "data_dir": {
+      "description": "数据输出目录",
+      "default": "finance/tushare"
+    },
+    "visualization_dir": {
+      "description": "可视化图表输出目录",
+      "default": "finance/visualization"
+    }
+  },
+  "outputs": [
+    {
+      "file": "finance/tushare/index_sh_000001_daily.csv",
+      "description": "上证指数日线数据"
+    },
+    {
+      "file": "finance/tushare/index_sz_399001_daily.csv",
+      "description": "深证成指日线数据"
+    },
+    {
+      "file": "finance/tushare/margin_trading_sse_szse.csv",
+      "description": "融资融券数据"
+    },
+    {
+      "file": "finance/tushare/market_combined_data.csv",
+      "description": "综合市场数据"
+    },
+    {
+      "file": "finance/visualization/*.html",
+      "description": "Plotly交互式图表"
+    }
+  ],
+  "tags": ["finance", "stock", "a-share", "tushare", "data-update", "visualization"]
+}
