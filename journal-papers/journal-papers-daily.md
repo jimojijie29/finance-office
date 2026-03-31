@@ -1,7 +1,47 @@
-# 📄 期刊论文日报 - 2026-03-29
+# 📄 期刊论文日报 - 2026-03-30
 
 ## Food Chemistry
 *食品化学 | Elsevier*
+
+### Dietary myricetin inhibits AGEs formation during thermal processing in different pattern diets and alleviates AGEs-induced intestinal epithelial damage in Caco-2 cells.
+**中文标题**: Dietary myricetin inhibits AGEs 形成 during thermal 加工 in different pattern diets and alleviates AGEs-induced intestinal epithelial damage in Caco-2 cells.
+
+**作者**: Liu L, Sun K, Xie X, Chen Y, Wang J
+**DOI**: doi: 10.1016/j.foodchem.2026.148959
+**PMID**: 41904865
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41904865/
+
+---
+
+### Germination-tunable structural remodeling of LAB-fermented soymilk gels: Unraveling gastrointestinal digestive fate and bioactive peptide release.
+**中文标题**: Germination-tunable structural remodeling of LAB-fermented soymilk gels: Unraveling gastrointestinal digestive fate and 生物活性 肽 release.
+
+**作者**: Wang Y, Wang Y, Yao Z, Rui X, Wang P
+**DOI**: doi: 10.1016/j.foodchem.2026.149015
+**PMID**: 41904863
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41904863/
+
+---
+
+### Structure-function relationships in chitosan films containing ZIF-8-confined Ligusticum jeholense essential oil: pH-triggered release and apple ring rot control.
+**中文标题**: 结构-功能 relationships in chitosan films containing ZIF-8-confined Ligusticum jeholense essential oil: pH-triggered release and apple ring rot control.
+
+**作者**: Tong XY, Liu YF, Xu ZH, Li W, Li LF
+**DOI**: doi: 10.1016/j.foodchem.2026.148997
+**PMID**: 41904861
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41904861/
+
+---
+
+### Development of biodegradable chitosan-based packaging films incorporated with jackfruit sawdust liquid smoke for extending the shelf life of Yellowfin tuna.
+**中文标题**: Development of biodegradable chitosan-based packaging films incorporated with jackfruit sawdust liquid smoke for extending the 保质期 of Yellowfin tuna.
+
+**作者**: Suresh RC, Jaganath B, Kannaiyan SK, Joseph TC, Chatterjee NS
+**DOI**: doi: 10.1016/j.foodchem.2026.148972
+**PMID**: 41904859
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41904859/
+
+---
 
 ### Corrigendum to "Metabolomic modelling of sensory characteristics and consumer liking in papaya fruit" [Food Chem. 508 (2026) 148323].
 **中文标题**: Corrigendum to "Metabolomic modelling of 感官 characteristics and consumer liking in papaya fruit" [Food Chem. 508 (2026) 148323].
@@ -20,26 +60,6 @@
 **DOI**: doi: 10.1016/j.foodchem.2026.149018
 **PMID**: 41895126
 **链接**: https://pubmed.ncbi.nlm.nih.gov/41895126/
-
----
-
-### Cold plasma-modified goat milk casein/Chinese yam polysaccharide/chitosan composite films: Structural, functional, and preservative properties for fresh pork.
-**中文标题**: 冷等离子体-modified goat milk casein/Chinese yam 多糖/chitosan composite films: Structural, functional, and preservative 性质 for fresh pork.
-
-**作者**: Song S, Song J, Liu J, Lei Q, Li C
-**DOI**: doi: 10.1016/j.foodchem.2026.148874
-**PMID**: 41895125
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41895125/
-
----
-
-### Assessment of oligosaccharide addition on in vitro digestion, hydrolysate absorption, and in vivo digestive enzyme activity of milk/soy proteins.
-**中文标题**: 评估 of oligosaccharide addition on 体外 digestion, hydrolysate absorption, and 体内 digestive enzyme 活性 of milk/soy proteins.
-
-**作者**: Mo Q, Lin T, Lin Y, Xu C, Rui X
-**DOI**: doi: 10.1016/j.foodchem.2026.148973
-**PMID**: 41895124
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41895124/
 
 ---
 
@@ -123,16 +143,6 @@
 
 ---
 
-### Production of porous corn starch granule by enzymatic method and entrapment of Iron.
-**中文标题**: Production of porous corn 淀粉 granule by enzymatic method and entrapment of Iron.
-
-**作者**: Athokpam M, Purohit SR
-**DOI**: doi: 10.1016/j.foodchem.2026.148991
-**PMID**: 41886993
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41886993/
-
----
-
 ### Integrated in silico, in vitro, and machine learning pipeline for extraction of antioxidant peptides and lipids from fish viscera.
 **中文标题**: Integrated in silico, 体外, and machine learning pipeline for 提取 of 抗氧化 peptides and lipids from 鱼类 viscera.
 
@@ -143,16 +153,6 @@
 
 ---
 
-### Comparative analysis of drying methods on the flavor and quality attributes of ginger (Zingiber officinale) using HS-GC-IMS and E-nose.
-**中文标题**: Comparative 分析 of drying methods on the 风味 and 品质 attributes of ginger (Zingiber officinale) using HS-GC-IMS and E-nose.
-
-**作者**: Tian X, Dong H, Aheto JH, Fang Q, Zhang X
-**DOI**: doi: 10.1016/j.foodchem.2026.148979
-**PMID**: 41886991
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41886991/
-
----
-
 ### Soybean protein complexes as diglyceride nanostructured lipid carriers for lycopene delivery: preparation via metal-phenol network formation.
 **中文标题**: Soybean 蛋白质 complexes as diglyceride nanostructured 脂质 carriers for lycopene delivery: 制备 via metal-phenol network 形成.
 
@@ -160,26 +160,6 @@
 **DOI**: doi: 10.1016/j.foodchem.2026.148968
 **PMID**: 41886988
 **链接**: https://pubmed.ncbi.nlm.nih.gov/41886988/
-
----
-
-### Ultrasound-enhanced stability of Pickering emulsions via whey protein concentrate-xanthan gum-ellagic acid ternary complexes: Mechanisms and functional properties.
-**中文标题**: Ultrasound-enhanced 稳定性 of Pickering emulsions via whey 蛋白质 concentrate-xanthan gum-ellagic acid ternary complexes: Mechanisms and functional 性质.
-
-**作者**: Shen J, Zhou T, Zhou X, Ding Y
-**DOI**: doi: 10.1016/j.foodchem.2026.148933
-**PMID**: 41886987
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41886987/
-
----
-
-### Quality formation in corn kernels during postharvest ripening: the influence of storage conditions on phenolic components and antioxidant activity.
-**中文标题**: 品质 形成 in corn kernels during postharvest ripening: the influence of 贮藏 conditions on 酚类 components and 抗氧化 活性.
-
-**作者**: Zhao F, Li H, Zang R, Pan J, Zhu J
-**DOI**: doi: 10.1016/j.foodchem.2026.148958
-**PMID**: 41880964
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41880964/
 
 ---
 
@@ -203,8 +183,98 @@
 
 ---
 
+### Ultrasound-assisted deep eutectic solvent extraction of flavonoids from Chinese bayberry leaves: Optimization, molecular mechanism, and antioxidant evaluation.
+**中文标题**: Ultrasound-assisted deep eutectic solvent 提取 of flavonoids from Chinese bayberry leaves: Optimization, 分子 机制, and 抗氧化 评价.
+
+**作者**: Lv JM, Zhou WT, Sun CD, Cao Y, Xia QL
+**DOI**: doi: 10.1016/j.foodchem.2026.148996
+**PMID**: 41875767
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41875767/
+
+---
+
+### Comprehensive multi-omics integration analysis identifies the functional association between linoleic acid and meat quality variation among different cattle breeds.
+**中文标题**: Comprehensive multi-omics integration 分析 identifies the functional association between linoleic acid and 肉类 品质 variation among different cattle breeds.
+
+**作者**: Wang J, Song L, Du H, Shi Y, Zhang S
+**DOI**: doi: 10.1016/j.foodchem.2026.148224
+**PMID**: 41628516
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41628516/
+
+---
+
 ## Journal of Ethnopharmacology
 *民族药理学 | Elsevier*
+
+### Activating NK cell immunity against prostate cancer with Hedysarum polybotrys Hand.-Mazz.: A multi-omics integration of computational prediction and experimental validation on PI3K/AKT and PD-1/PD-L1 axes.
+**中文标题**: Activating NK cell immunity against prostate cancer with Hedysarum polybotrys Hand.-Mazz.: A multi-omics integration of computational prediction and experimental validation on PI3K/AKT and PD-1/PD-L1 axes.
+
+**作者**: Zhan L, Liu Q, Zhang C, Pu J, Ren L
+**DOI**: doi: 10.1016/j.jep.2026.121564
+**PMID**: 41903590
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903590/
+
+---
+
+### Schinus weinmanniifolia as a natural alternative for the control of skin infections: a multifactorial approach against methicillin-resistant Staphylococcus aureus.
+**中文标题**: Schinus weinmanniifolia as a natural alternative for the control of skin infections: a multifactorial approach against methicillin-resistant Staphylococcus aureus.
+
+**作者**: Leite C, Andrade J, Almeida-Apolônio A, Rosa S, Castro T
+**DOI**: doi: 10.1016/j.jep.2026.121577
+**PMID**: 41903589
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903589/
+
+---
+
+### Spectrum-Efficacy and Pharmacodynamics-Pharmacokinetics Correlation of Multi-index Constituents in Liangfu Dripping Pills in Ethanol-Induced Acute Gastric Ulcer Rats.
+**中文标题**: Spectrum-Efficacy and Pharmacodynamics-Pharmacokinetics 相关性 of Multi-index Constituents in Liangfu Dripping Pills in Ethanol-Induced Acute Gastric Ulcer Rats.
+
+**作者**: Pan J, Ding Y, Jiao L, Liao Y, Wang Y
+**DOI**: doi: 10.1016/j.jep.2026.121592
+**PMID**: 41903588
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903588/
+
+---
+
+### Progresses in Ethnopharmacological Use, Phytochemistry, Pharmacology, Clinical Application, Pharmacokinetics, Quality Control and Safety of Sappan Lignum (Sumu): A Review.
+**中文标题**: Progresses in Ethnopharmacological Use, Phytochemistry, Pharmacology, Clinical Application, Pharmacokinetics, 品质 Control and Safety of Sappan Lignum (Sumu): A Review.
+
+**作者**: Chen W, Li X, Hu B, Huang Y, Zhong J
+**DOI**: doi: 10.1016/j.jep.2026.121588
+**PMID**: 41903587
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903587/
+
+---
+
+### Salvianolic acid C, a novel pyroptosis inhibitor, attenuates podocyte injury in diabetic kidney disease through regulating miRNA-21/A20 pathway.
+**中文标题**: Salvianolic acid C, a novel pyroptosis inhibitor, attenuates podocyte injury in diabetic kidney disease through regulating miRNA-21/A20 pathway.
+
+**作者**: Xiang S, Shi X, Lv M, Gao G, Wang P
+**DOI**: doi: 10.1016/j.jep.2026.121589
+**PMID**: 41903586
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903586/
+
+---
+
+### Dunhuang Daxiefei Decoction ameliorates acute lung injury via the HIF-1α/glycolysis/H3K18la axis.
+**中文标题**: Dunhuang Daxiefei Decoction ameliorates acute lung injury via the HIF-1α/glycolysis/H3K18la axis.
+
+**作者**: Wang J, Jiao L, Yan Z, Wang S, Wu S
+**DOI**: doi: 10.1016/j.jep.2026.121591
+**PMID**: 41903585
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903585/
+
+---
+
+### New Hippuric Acid Derivatives of Prospective MDR AcrAB-TolC Efflux Pump Inhibition, Isolated from the Fossilized Metabolic Product of Procavia capensis, In Vitro Supported Computational Study.
+**中文标题**: New Hippuric Acid Derivatives of Prospective MDR AcrAB-TolC Efflux Pump Inhibition, Isolated from the Fossilized Metabolic Product of Procavia capensis, 体外 Supported Computational Study.
+
+**作者**: Mohammed MMD, Aljedaie MM, Hamed AA, Ghareeb MA
+**DOI**: doi: 10.1016/j.jep.2026.121573
+**PMID**: 41903584
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903584/
+
+---
 
 ### Research progress on employing medicinal plants and their active compounds to target autophagic pathways for Parkinson's disease therapy.
 **中文标题**: Research progress on employing medicinal plants and their active compounds to target autophagic pathways for Parkinson's disease therapy.
@@ -246,8 +316,8 @@
 
 ---
 
-### Anti-Inflammatory Effects of Glehnia littoralis Ethyl Acetate Extract and Its Active Compound Phellopterin via Inhibition of N-Acylethanolamine Acid Amidase.
-**中文标题**: Anti-Inflammatory Effects of Glehnia littoralis Ethyl Acetate 提取物 and Its Active 化合物 Phellopterin via Inhibition of N-Acylethanolamine Acid Amidase.
+### Anti-inflammatory effects of Glehnia littoralis ethyl acetate extract and its active compound phellopterin via inhibition of N-acylethanolamine acid amidase.
+**中文标题**: Anti-inflammatory effects of Glehnia littoralis ethyl acetate 提取物 and its active 化合物 phellopterin via inhibition of N-acylethanolamine acid amidase.
 
 **作者**: Lu L, Xu H, Zhang G, He X, Zhang F
 **DOI**: doi: 10.1016/j.jep.2026.121586
@@ -336,76 +406,6 @@
 
 ---
 
-### Phytochemical profiling and integrated in vitro/in vivo wound-healing evaluation of Barbeya oleoides Schweinfurth aerial parts.
-**中文标题**: Phytochemical profiling and integrated 体外/体内 wound-healing 评价 of Barbeya oleoides Schweinfurth aerial parts.
-
-**作者**: Ali NB, Adel N, Avula B, Katragunta K, Tatapudi KK
-**DOI**: doi: 10.1016/j.jep.2025.121123
-**PMID**: 41482086
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41482086/
-
----
-
-### Neuroprotective effects of ZiYin XiFeng formula against Parkinson's disease via Nrf2/SLC7A11/GPX4-mediated ferroptosis inhibition.
-**中文标题**: Neuroprotective effects of ZiYin XiFeng formula against Parkinson's disease via Nrf2/SLC7A11/GPX4-mediated ferroptosis inhibition.
-
-**作者**: Guo X, Fu Q, Pang B, He H, Yang G
-**DOI**: doi: 10.1016/j.jep.2025.121138
-**PMID**: 41478538
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41478538/
-
----
-
-### Paeoniflorin enhances tubular repair by promoting dihydroorotate dehydrogenase-dependent epithelial cell proliferation in cisplatin-induced chronic kidney disease.
-**中文标题**: Paeoniflorin enhances tubular repair by promoting dihydroorotate dehydrogenase-dependent epithelial cell proliferation in cisplatin-induced chronic kidney disease.
-
-**作者**: Qiu CW, Su HW, Mao JS, Wei W, Liu JQ
-**DOI**: doi: 10.1016/j.jep.2025.121129
-**PMID**: 41475629
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41475629/
-
----
-
-### YiQi GuBen formula targets EHMT2 and enhances NEDD4L transcription to combat epithelial-mesenchymal transition and airway remodeling in asthma.
-**中文标题**: YiQi GuBen formula targets EHMT2 and enhances NEDD4L transcription to combat epithelial-mesenchymal transition and airway remodeling in asthma.
-
-**作者**: Kong Y, Dong A, Yu X, Sun T, Yu H
-**DOI**: doi: 10.1016/j.jep.2025.121125
-**PMID**: 41475628
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41475628/
-
----
-
-### Decoding the extracts of Lippia alnifolia Schauer (Verbenaceae): Chemical composition and its impacts on nociception and inflammation.
-**中文标题**: Decoding the extracts of Lippia alnifolia Schauer (Verbenaceae): Chemical composition and its impacts on nociception and inflammation.
-
-**作者**: Paulo IMM, Bomfim HF, Silva AN, Perilla ACG, Yamaguchi LF
-**DOI**: doi: 10.1016/j.jep.2025.121133
-**PMID**: 41475626
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41475626/
-
----
-
-### M1 macrophage activation via TLR4/NF-κB/mincle is essential for triptolide-induced hepatotoxicity.
-**中文标题**: M1 macrophage activation via TLR4/NF-κB/mincle is essential for triptolide-induced hepatotoxicity.
-
-**作者**: Ding R, Miao Q, Ma X, Zhou L, Liu J
-**DOI**: doi: 10.1016/j.jep.2025.121127
-**PMID**: 41475624
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41475624/
-
----
-
-### Wenyang-Tianjing-Jieyu decoction ameliorates Kidney-Yang deficiency type depression-like behavior in Sprague-Dawley rats by enhancing neurogenesis via the FOXO signaling pathway.
-**中文标题**: Wenyang-Tianjing-Jieyu decoction ameliorates Kidney-Yang deficiency type depression-like behavior in Sprague-Dawley rats by enhancing neurogenesis via the FOXO signaling pathway.
-
-**作者**: Liu D, Wang Y, Zhao H, Xia X, Zhou J
-**DOI**: doi: 10.1016/j.jep.2025.121128
-**PMID**: 41475623
-**链接**: https://pubmed.ncbi.nlm.nih.gov/41475623/
-
----
-
 ## Journal of Animal Science and Biotechnology
 *动物科学与生物技术 | BMC*
 
@@ -413,6 +413,56 @@
 
 ## Fish & Shellfish Immunology
 *鱼类与贝类免疫学 | Elsevier*
+
+### Identification of potential virulence sites of IHNV G protein and its impact on pathogenicity and immunogenicity of IHNV in rainbow trout (Oncorhynchus mykiss).
+**中文标题**: 鉴定 of potential virulence sites of IHNV G 蛋白质 and its 作用 on pathogenicity and immunogenicity of IHNV in rainbow trout (Oncorhynchus mykiss).
+
+**作者**: Wu G, Ao R, Ma Y, Shi Y, Guan X
+**DOI**: doi: 10.1016/j.fsi.2026.111303
+**PMID**: 41903595
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903595/
+
+---
+
+### Genome-wide identification, evolutionary and expression analyses of the NF-κB family, the IκB inhibitors, IKK-associated genes in grass carp (Ctenopharyngodon idella), and their responses to bacterial and viral infections.
+**中文标题**: Genome-wide 鉴定, evolutionary and expression analyses of the NF-κB family, the IκB inhibitors, IKK-associated genes in grass carp (Ctenopharyngodon idella), and their responses to bacterial and viral infections.
+
+**作者**: Lv M, Chen G, Li W, Lu Y, Tang B
+**DOI**: doi: 10.1016/j.fsi.2026.111302
+**PMID**: 41903594
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903594/
+
+---
+
+### Comprehensive effects of cyclic starvation and refeeding on juvenile grass carp: growth, meat quality, enzyme activity, enteritis, and challenge by Aeromonas hydrophila.
+**中文标题**: Comprehensive effects of cyclic starvation and refeeding on juvenile grass carp: growth, 肉类 品质, enzyme 活性, enteritis, and challenge by Aeromonas hydrophila.
+
+**作者**: Cong Q, Meng XZ, Li Y, Shen Y, Xu X
+**DOI**: doi: 10.1016/j.fsi.2026.111301
+**PMID**: 41903593
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903593/
+
+---
+
+### Integrated transcriptomic and histological insights into immune and stress-related pathways in the Antarctic sea anemone Urticinopsis antarctica.
+**中文标题**: Integrated transcriptomic and histological insights into immune and stress-related pathways in the Antarctic sea anemone Urticinopsis antarctica.
+
+**作者**: La Corte C, Scapigliati G, Gerdol M, Bisanti L, Dara M
+**DOI**: doi: 10.1016/j.fsi.2026.111295
+**PMID**: 41903592
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903592/
+
+---
+
+### Novel antimicrobial peptides derived from ribosomal protein L39 of large yellow croaker (Larimichthys crocea): promising therapeutic agents for controlling bacterial infections in aquaculture.
+**中文标题**: Novel antimicrobial peptides derived from ribosomal 蛋白质 L39 of large yellow croaker (Larimichthys crocea): promising therapeutic agents for controlling bacterial infections in aquaculture.
+
+**作者**: Liu Q, Zhou Y, Liao Y, Xu J, Wei G
+**DOI**: doi: 10.1016/j.fsi.2026.111304
+**PMID**: 41903591
+**链接**: https://pubmed.ncbi.nlm.nih.gov/41903591/
+
+---
 
 ### An inactivated vaccine confers potent and durable protection against a screened virulent rhabdovirus in hybrid snakehead.
 **中文标题**: An inactivated vaccine confers potent and durable protection against a screened virulent rhabdovirus in hybrid snakehead.
@@ -515,4 +565,4 @@
 ---
 
 
-*总计 50 篇论文*
+*总计 55 篇论文*

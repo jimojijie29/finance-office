@@ -1,11 +1,11 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-30T09:15:49.878637+08:00",
+  "last_updated": "2026-03-31T10:09:44.391685+08:00",
   "tasks": {
     "a-stock-market-update": {
       "name": "A股两市行情数据每日更新",
       "schedule": "09:30",
-      "last_run": "2026-03-30T09:15:49.878637+08:00",
+      "last_run": "2026-03-31T10:09:44.391685+08:00",
       "status": "success",
       "output_file": "finance/tushare/market_combined_data.csv",
       "error": null,
@@ -14,8 +14,8 @@
     "journal-papers-daily": {
       "name": "期刊论文日报",
       "schedule": "08:00",
-      "last_run": null,
-      "status": "pending",
+      "last_run": "2026-03-31T09:45:00.000000+08:00",
+      "status": "success",
       "output_file": "journal-papers-daily.md",
       "error": null,
       "retry_count": 0
@@ -23,8 +23,8 @@
     "moyu-reading-am": {
       "name": "莫大仙岳居阅读-上午",
       "schedule": "10:00",
-      "last_run": null,
-      "status": "pending",
+      "last_run": "2026-03-31T09:35:00.000000+08:00",
+      "status": "success",
       "output_file": null,
       "error": null,
       "retry_count": 0
