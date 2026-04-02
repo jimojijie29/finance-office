@@ -1,14 +1,14 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-31T10:09:44.391685+08:00",
+  "last_updated": "2026-04-02T10:07:49.328324+08:00",
   "tasks": {
     "a-stock-market-update": {
       "name": "A股两市行情数据每日更新",
       "schedule": "09:30",
-      "last_run": "2026-03-31T10:09:44.391685+08:00",
+      "last_run": "2026-04-02T10:07:49.328324+08:00",
       "status": "success",
       "output_file": "finance/tushare/market_combined_data.csv",
-      "error": null,
+      "error": "[WinError 32] 另一个程序正在使用此文件，进程无法访问。: 'finance/tushare\\\\market_combined_data.csv'",
       "retry_count": 0
     },
     "journal-papers-daily": {

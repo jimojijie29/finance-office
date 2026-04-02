@@ -1,0 +1,15 @@
+中国国债收益率数据查询结果
+============================================================
+
+查询时间: 2026-03-31 16:08:36
+查询期限: 1年, 2年, 5年, 10年, 20年, 30年
+成功获取: 2/6
+
+
+10年期:
+  文件: D:\OpenClawData\.openclaw\workspace\finance\cn_treasury_workflow\temp_query\10年\mx_macro_data_b067c863_daily.csv
+  记录数: 2
+
+30年期:
+  文件: D:\OpenClawData\.openclaw\workspace\finance\cn_treasury_workflow\temp_query\30年\mx_macro_data_416e6ada_daily.csv
+  记录数: 1

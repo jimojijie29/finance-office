@@ -6,21 +6,15 @@
 
 ### 1. 定时任务状态检查
 
-**执行以下 Python 代码检查任务状态：**
+**检查输出文件状态（无需执行命令）：**
 
-```python
-import sys
-import os
-sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'logs'))
-from task_logger import check_all_tasks, format_task_report
+检查以下文件的最后修改时间：
+- `finance/tushare/market_combined_data.csv` - A股行情数据
+- `journal-papers-daily.md` - 期刊论文日报
+- `memory/YYYY-MM-DD.md` - AI日记（当天）
+- `MEMORY.md` - 长期记忆
 
-issues = check_all_tasks()
-if issues:
-    report = format_task_report(issues)
-    print(report)  # 输出报告，不回复 HEARTBEAT_OK
-else:
-    print("所有定时任务正常")
-```
+如果文件不存在或最后修改时间早于预期，报告异常。
 
 **当前监控任务：**
 

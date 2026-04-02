@@ -47,6 +47,64 @@ _这是凯的专属记忆库，仅在主会话中加载。_
 
 - 批量筛选盈利公司：使用 `daily_basic` 获取 PE_TTM，PE > 0 表示盈利（比 `income` 接口快得多，避免逐个查询超时）
 
+## 金融数据工作流配置
+
+所有金融数据工作流位于 `D:\OpenClawData\.openclaw\workspace\finance\` 目录，统一采用 `scripts/` + `data/` 目录结构。
+
+### A Share（A股数据）
+- **路径**: `finance/A Share/`
+- **脚本**: `scripts/update_daily_market_data.py`
+- **数据**: `tushare/`（上证指数、深证成指、融资融券）
+- **定时任务**: 每天 09:30
+
+### Global-Markets（全球市场数据）
+- **路径**: `finance/Global-Markets/`
+- **脚本**: `scripts/workflow.py`
+- **数据**: `data/`（标普500、道琼斯、纳斯达克、黄金、白银）
+- **定时任务**: 每天 09:00
+- **数据源**: akshare（新浪财经）
+
+### HKD-Exchange-Rate-vs-HSI（港币汇率与恒生指数）
+- **路径**: `finance/HKD-Exchange-Rate-vs-HSI/`
+- **脚本**:
+  - `scripts/update_data.py` - USD/HKD 汇率（akshare）
+  - `scripts/update_hsi_mx.py` - 恒生指数（mx-macro-data skill）
+- **数据**: `data/`（USD/HKD汇率、恒生指数）
+- **定时任务**: 每天 09:05
+- **数据源**:
+  - USD/HKD: akshare（新浪财经）
+  - 恒生指数: 东方财富妙想API（mx-macro-data skill）
+- **修改记录**（2026-04-02）:
+  - 恒生指数改用 mx-macro-data skill 获取，避免网络代理问题
+  - 新增 `update_hsi_mx.py` 脚本，自动解析 skill 输出并增量更新
+  - 原 `update_data.py` 仍用于 USD/HKD 汇率更新
+
+### us_treasury_workflow（美国国债收益率）
+- **路径**: `finance/us_treasury_workflow/`
+- **脚本**: `scripts/update_us_treasury_data.py`
+- **数据**: `data/us_treasury_yields_all_terms.csv`
+- **可视化**: `us_treasury_all_terms.html`
+- **期限**: 1月、3月、6月、1年、2年、3年、5年、7年、10年、20年、30年
+
+### Money_Supply_Tightness_vs_SP500（流动性与标普500对比）
+- **路径**: `finance/Money_Supply_Tightness_vs_SP500/`
+- **脚本**: `scripts/yield_spread_workflow.R`
+- **功能**: 美债3月-10年利差与标普500对比分析
+- **数据引用**:
+  - 美债数据: `us_treasury_workflow/data/us_treasury_yields_all_terms.csv`
+  - 标普500: `Global-Markets/data/SP500_History.csv`
+- **关键指标**: 当前利差倒挂 -0.63%，倒挂时间占比 58.1%
+
+### 定时任务汇总
+
+| 时间 | 任务 | 数据内容 |
+|------|------|---------|
+| 08:00 | 全球市场数据 | 美股三大指数 + 黄金/白银 |
+| 09:05 | 港币汇率与恒生指数 | USD/HKD + HSI |
+| 09:30 | A股两市行情 | 上证指数 + 深证成指 + 融资融券 |
+| 09:30 | 中国国债收益率 | 国债收益率曲线 |
+| 09:30 | 期刊论文日报 | 学术期刊最新论文 |
+
 ## 工作流与工具配置
 
 ### OpenClaw 配置
@@ -200,4 +258,4 @@ _这是凯的专属记忆库，仅在主会话中加载。_
 ---
 
 *此文件由 cron job 从 daily memory 自动提炼更新*
-*最后更新：2026-03-30*
+*最后更新：2026-03-31*
