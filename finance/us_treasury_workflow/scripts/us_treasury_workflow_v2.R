@@ -222,7 +222,7 @@ fig <- fig %>% layout(
 # ============================================
 # Step 6: 保存HTML
 # ============================================
-htmlwidgets::saveWidget(fig, "us_treasury_all_terms.html", selfcontained = TRUE)
+htmlwidgets::saveWidget(fig, "../us_treasury_all_terms.html", selfcontained = TRUE)
 
 cat("\n✅ 美国国债收益率全期限交互式图表生成完成！\n")
 cat("输出文件: us_treasury_all_terms.html\n")

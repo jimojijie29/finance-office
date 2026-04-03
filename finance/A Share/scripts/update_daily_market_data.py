@@ -30,8 +30,8 @@ except ImportError:
 # Tushare API Token
 token = os.getenv('TUSHARE_TOKEN') or '242e48c14fbf0c72ffd3'
 
-# 数据文件路径
-DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'tushare')
+# 数据文件路径 (已从 tushare 目录迁移到 data 目录)
+DATA_DIR = os.path.join(os.path.dirname(__file__), '..', 'data')
 SH_INDEX_FILE = os.path.join(DATA_DIR, 'index_sh_000001_daily.csv')
 SZ_INDEX_FILE = os.path.join(DATA_DIR, 'index_sz_399001_daily.csv')
 MARGIN_FILE = os.path.join(DATA_DIR, 'margin_trading_sse_szse.csv')
@@ -299,12 +299,15 @@ def main():
         import subprocess
         
         r_script_path = os.path.join(os.path.dirname(__file__), 'visualize_market_data_plotly_dual.R')
+        # 设置工作目录为 finance/A Share/，以便 R 脚本中的相对路径正确解析
+        a_share_dir = os.path.join(os.path.dirname(__file__), '..')
         try:
             result = subprocess.run(
                 ['Rscript', r_script_path],
                 capture_output=True,
                 text=True,
-                check=True
+                check=True,
+                cwd=a_share_dir
             )
             print(result.stdout)
             if result.stderr:

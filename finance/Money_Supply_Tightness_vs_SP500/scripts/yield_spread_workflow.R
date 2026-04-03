@@ -21,9 +21,10 @@ suppressPackageStartupMessages({
 # 配置
 # ============================================
 CONFIG <- list(
-  # 输入文件路径 (使用相对于工作目录的路径)
-  treasury_file = "us_treasury_workflow/data/us_treasury_yields_all_terms.csv",
-  sp500_file = "Global-Markets/data/SP500_History.csv",
+  # 输入文件路径 (使用相对于finance/目录的路径)
+  # 注意: 此脚本应在 finance/Money_Supply_Tightness_vs_SP500/ 目录下执行
+  treasury_file = "../us_treasury_workflow/data/us_treasury_yields_all_terms.csv",
+  sp500_file = "../Global-Markets/data/SP500_History.csv",
   
   # 输出文件
   output_file = "yield_spread_sp500_interactive.html",
@@ -181,7 +182,7 @@ create_plot <- function(data, stats) {
     type = 'scatter',
     mode = 'lines',
     name = 'Yield Spread (3M-10Y)',
-    line = list(color = '#E53935', width = 2, dash = 'dash'),
+    line = list(color = '#E53935', width = 2.5),
     yaxis = 'y2',
     hovertemplate = paste0(
       "<b>3M-10Y Spread</b><br>",

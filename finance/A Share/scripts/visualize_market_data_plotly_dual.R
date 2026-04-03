@@ -14,8 +14,10 @@ library(htmlwidgets)
 library(lubridate)  # 用于日期计算
 
 # 文件路径配置
-DATA_FILE <- "A Share/tushare/market_combined_data.csv"
-OUTPUT_DIR <- "A Share/visualization"
+# 注意：此脚本应在 finance/A Share/ 目录下执行
+# 相对路径基于该目录
+DATA_FILE <- "data/market_combined_data.csv"
+OUTPUT_DIR <- "visualization"
 
 # 创建输出目录
 dir.create(OUTPUT_DIR, showWarnings = FALSE, recursive = TRUE)

@@ -13,10 +13,12 @@
 自动获取并更新上证指数、深证成指日线数据及融资融券交易汇总数据。
 
 **数据文件**:
-- `tushare/index_sh_000001_daily.csv` - 上证指数日线
-- `tushare/index_sz_399001_daily.csv` - 深证成指日线
-- `tushare/margin_trading_sse_szse.csv` - 融资融券数据
-- `tushare/market_combined_data.csv` - 综合市场数据
+- `data/index_sh_000001_daily.csv` - 上证指数日线
+- `data/index_sz_399001_daily.csv` - 深证成指日线
+- `data/margin_trading_sse_szse.csv` - 融资融券数据
+- `data/market_combined_data.csv` - 综合市场数据
+
+> **注意**: 2026-04-03 数据目录从 `tushare/` 迁移到 `data/` 以统一目录结构
 
 **更新频率**: 每日 09:30 (获取上一交易日数据)
 
@@ -63,7 +65,7 @@
 ```
 finance-office/
 ├── finance/                          # A股数据目录
-│   ├── tushare/                      # Tushare数据
+│   ├── data/                         # A股数据文件
 │   │   ├── index_sh_000001_daily.csv
 │   │   ├── index_sz_399001_daily.csv
 │   │   ├── margin_trading_sse_szse.csv
@@ -174,4 +176,4 @@ MIT License
 
 ---
 
-*最后更新: 2026-03-31*
+*最后更新: 2026-04-03*

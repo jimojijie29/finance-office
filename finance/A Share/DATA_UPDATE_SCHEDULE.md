@@ -1,4 +1,4 @@
-# Tushare 数据更新时间表
+# A股数据更新时间表
 
 ## 数据来源确认
 
@@ -17,8 +17,8 @@
 
 ### 方案一：保守方案（推荐）
 ```bash
-# 每天 19:00 执行
-0 19 * * * cd /path/to/workspace && python finance/scripts/update_daily_market_data.py
+# 每天 09:30 执行（获取上一交易日完整数据）
+0 9 * * * cd /path/to/workspace && python "finance/A Share/scripts/update_daily_market_data.py"
 ```
 **理由**: 
 - 指数数据 16:00 前已更新
@@ -28,7 +28,7 @@
 ### 方案二：实时方案
 ```bash
 # 每天 18:00 执行
-0 18 * * * cd /path/to/workspace && python finance/scripts/update_daily_market_data.py
+0 18 * * * cd /path/to/workspace && python "finance/A Share/scripts/update_daily_market_data.py"
 ```
 **理由**:
 - 适合对时效性要求较高的场景
@@ -37,7 +37,7 @@
 ### 方案三：安全方案
 ```bash
 # 每天 20:00 执行
-0 20 * * * cd /path/to/workspace && python finance/scripts/update_daily_market_data.py
+0 20 * * * cd /path/to/workspace && python "finance/A Share/scripts/update_daily_market_data.py"
 ```
 **理由**:
 - 确保所有数据都已稳定入库
@@ -56,7 +56,7 @@ Tushare 指数数据入库 (15:00-16:00) ✓
     ↓
 Tushare 融资融券数据入库 (当日) ✓
     ↓
-定时任务执行 (建议 19:00)
+定时任务执行 (09:30，获取上一交易日完整数据)
     ↓
 数据更新完成
 ```
@@ -69,7 +69,8 @@ Tushare 融资融券数据入库 (当日) ✓
 
 ## 推荐设置
 
-**最佳选择**: 每天 19:00 执行
-- 确保所有数据已更新
-- 避免数据延迟问题
-- 留有足够的数据校验时间
+**当前设置**: 每天 09:30 执行
+- 获取上一交易日完整数据
+- 指数数据 15:00-16:00 入库
+- 融资融券数据 17:00-18:00 入库
+- 次日早上执行确保数据完整
