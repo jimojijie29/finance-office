@@ -1,0 +1,579 @@
+{
+  "version": 1,
+  "updatedAt": "2026-04-09T02:48:59.003Z",
+  "entries": {
+    "memory:memory/2026-03-18.md:152:162": {
+      "key": "memory:memory/2026-03-18.md:152:162",
+      "path": "memory/2026-03-18.md",
+      "startLine": 152,
+      "endLine": 162,
+      "source": "memory",
+      "snippet": "- 长期配置：科创50指数基金，九紫离火运科技方向 ### 经典语录汇总 - \"在这个市场，傻子都比聪明人赚得多\" - \"市场就是阴阳不停地在变换\" - \"来市场首先管理风险，不是管理利润\" - \"随着股价上涨，能不断让成本下沉，那你就算成了\" --- *今日重点：建立记忆管理自动化流程 + SCI 论文排版规范学习 + 投资逻辑记录 + 莫大仙岳居投资哲学阅读计划启动*",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8638736989821089,
+      "maxScore": 0.8638736989821089,
+      "firstRecalledAt": "2026-04-08T00:38:26.441Z",
+      "lastRecalledAt": "2026-04-08T00:38:26.441Z",
+      "queryHashes": [
+        "94487fdd19b9"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "长期",
+        "配置",
+        "指数",
+        "基金",
+        "九紫",
+        "科技",
+        "方向",
+        "经典"
+      ]
+    },
+    "memory:memory/2026-03-17.md:1:19": {
+      "key": "memory:memory/2026-03-17.md:1:19",
+      "path": "memory/2026-03-17.md",
+      "startLine": 1,
+      "endLine": 19,
+      "source": "memory",
+      "snippet": "# 2026-03-17 记忆记录 ## 今日工作摘要 ### 1. 科研论文工作 - 继续推进裸花紫珠动物饲料添加剂 SCI 论文撰写 - 查阅相关文献，完善实验数据整理 ### 2. 投资分析 - 关注 A 股市场动态，分析宏观流动性指标 - 复盘近期量化策略表现 ### 3. 其他事务 - 处理日常工作事务 - 阅读佛教经典（《法华经》相关章节） --- *注：今日为日常工作日，无重大新配置或决策*",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8536493878562492,
+      "maxScore": 0.8536493878562492,
+      "firstRecalledAt": "2026-04-08T00:38:26.441Z",
+      "lastRecalledAt": "2026-04-08T00:38:26.441Z",
+      "queryHashes": [
+        "94487fdd19b9"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "记忆",
+        "记录",
+        "今日",
+        "工作",
+        "摘要",
+        "科研",
+        "论文",
+        "继续"
+      ]
+    },
+    "memory:memory/2026-03-18.md:1:44": {
+      "key": "memory:memory/2026-03-18.md:1:44",
+      "path": "memory/2026-03-18.md",
+      "startLine": 1,
+      "endLine": 44,
+      "source": "memory",
+      "snippet": "# 2026-03-18 记忆记录 ## 今日工作摘要 ### 1. OpenClaw 系统配置 - 设置了记忆管理 cron job：每天自动从 daily memory 提炼内容到 MEMORY.md - Cron job ID: `2c9a4986-dbcd-4a2a-a9ec-c3fbe1cc518a` - 执行时间：每天 17:25 ### 2. 记忆管理流程建立 - 建立了 daily memory → long-term memory 的自动化流程 - 定义了提炼规则：重要决策、用户偏好、项目状态、人名地点、经验教训 ### 3. 科研与投资 - 裸花紫珠 SCI 论文持续推进 - 关注市场动态，分析技术指标 ### 4. 其他 - 配置 OpenClaw Control UI 相关功能 - 优化工作流自动化 ## 新增配置 ### Cron Jobs | 任务 | ID | 时间 | 说明 | |------|-----|------|------| | 期刊论文日报 | 48b28cb8-cc55-40c9-80f2-7451eece1727 | 08:00 | 自动获取学术期刊论文 | | 记忆提炼 | 2c9a4986-dbcd-4a2a-a9ec-c3fbe1cc518a | 17:25 | Daily → Long-term 记忆整理 | ## 学习笔记：SCI 论文排版规范 ### 数值范围与数学符号空格规则 **1. 数值范围（不加空格）** - 规范：`0–1 mol/L`、`30–100°C` - 错误：`0 – 1 mol",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.5799311117276433,
+      "maxScore": 0.8272503784068872,
+      "firstRecalledAt": "2026-04-08T00:38:26.441Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "94487fdd19b9",
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "memory.md",
+        "long-term",
+        "mol/l",
+        "记忆",
+        "记录",
+        "今日",
+        "工作",
+        "摘要"
+      ]
+    },
+    "memory:memory/2026-03-12.md:196:227": {
+      "key": "memory:memory/2026-03-12.md:196:227",
+      "path": "memory/2026-03-12.md",
+      "startLine": 196,
+      "endLine": 227,
+      "source": "memory",
+      "snippet": "> \"当时以为是无妄之灾，但没有那件事，我也不会重新回到佛道术数这条本来该走的路。\" **意外之福**： - 前东家一直上社保发工资 - 不用去上班 - 直到考上博士 - 三年内毫无衣食之忧 > \"对，就是天降大财那家，所以说有福报的人一直在无心栽柳。\" **三、张楚的豁达** > \"年轻时候，就该粪土当年万户侯。中年就要学会豁达，明白人生来都带着欲望上场，不论目标实现没实现，最终都是一场空。关键在这个过程。\" **四、核心感悟** > \"回头看，这都过去十年了。我觉得经历的所有事，都在告诉自己吉凶转换的道理。\" **关键认知**： > \"得失毁誉不能看眼前，把时间线放长，命运会给所有人公平。\" **警告**： > \"如果依然不能超脱出来看待这些，就会一直陷在三维的幻境，执迷不悟，反复纠缠痛苦，反复挨捶。\" **五、结语** > \"大家都经历很多，都感悟和成长很多。我也不是啥特例。只不过看古书没这么生动，我们这些活人来演一演。就这么回事儿。\" --- ### 2025年12月21日（同日第五篇） **主题：冬至自勉——继续读经**",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8340039197443095,
+      "maxScore": 0.8340039197443095,
+      "firstRecalledAt": "2026-04-08T00:39:07.553Z",
+      "lastRecalledAt": "2026-04-08T00:39:07.553Z",
+      "queryHashes": [
+        "80f616000e6b"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "当时",
+        "以为是",
+        "无妄之灾",
+        "没有",
+        "那件事",
+        "也不会",
+        "重新",
+        "回到"
+      ]
+    },
+    "memory:memory/2026-03-12.md:164:207": {
+      "key": "memory:memory/2026-03-12.md:164:207",
+      "path": "memory/2026-03-12.md",
+      "startLine": 164,
+      "endLine": 207,
+      "source": "memory",
+      "snippet": "**偶遇**： > \"过了几天。就在图书馆看见了。因为四层特藏馆就放了《敦煌文书》，而且是一家三口一起，从我身边走过去的。\" **反应**： - 脸盲，不确定是不是 - 这么巧，应该是 - 社恐发作，不敢认 **结语**： > \"我要藏好。只可以我发现你们，不许你们发现我。\" --- ### 2025年12月21日（同日第四篇） **主题：人生感悟——吉凶转换** **背景**：刷到张楚访谈，回忆2016年偶遇 **一、偶遇张楚** **场景**：咖啡馆整理卷宗，第二天开庭 **过程**： - 认出张楚 - 过去叫了一声，张楚受惊跑了 - 回来平复后，请求签名 - 讲述被开除、告前东家的经历 - 张楚竖大拇哥，写下\"祝你成功\" **结果**：官司赢了 **二、福祸相依** > \"当时以为是无妄之灾，但没有那件事，我也不会重新回到佛道术数这条本来该走的路。\" **意外之福**： - 前东家一直上社保发工资 - 不用去上班 - 直到考上博士 - 三年内毫无衣食之忧 > \"对，就是天降大财那家，所以说有福报的人一直在无心栽柳。\" **三、张楚的豁达**",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8245059964996254,
+      "maxScore": 0.8245059964996254,
+      "firstRecalledAt": "2026-04-08T00:39:07.553Z",
+      "lastRecalledAt": "2026-04-08T00:39:07.553Z",
+      "queryHashes": [
+        "80f616000e6b"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "偶遇",
+        "几天",
+        "就在",
+        "图书",
+        "看见",
+        "因为",
+        "四层",
+        "放了"
+      ]
+    },
+    "memory:memory/2026-03-12.md:73:112": {
+      "key": "memory:memory/2026-03-12.md:73:112",
+      "path": "memory/2026-03-12.md",
+      "startLine": 73,
+      "endLine": 112,
+      "source": "memory",
+      "snippet": "**三、使命完成** > \"既然如此，我接下来讲不讲也就不重要了。你们完全可以自修自悟了。\" **付出与代价**： - 花大量时间和精力讲解佛经 - 一分钱不敢收 - 耽误现实中挣钱 - 落得\"天魔讲法\"，遭遇攻击 **心态**： > \"你们读原经，发现甚至这都是必经阶段，所以我心态超好。没什么是意料之外的。\" **四、对\"宗教\"的批判** > \"如果有一种宗教是造谣、嘲讽、编排、嫉妒、二极管，像恶臭的粉圈一样抱团攻击和自己意见不一样的人，处处强迫他人按照自己的标准生活说话，那这样的宗教不要也罢。我也不会信，谁爱信谁信。\" **五、告别与未来** **闭关原因**： - 好几个项目急着做 - 前途一片光明，最近都耽误了 - 搞钱改善生活 - 看不惯的人可以眼不见心不烦 - 两全其美，随顺众生 **最后叮嘱**： > \"大家吃好喝好，继续读经，锻炼身体。最重要的一点，不要理会任何挑拨，时刻提醒自己戒嗔！！！\" **结语**： > \"江湖再见了，哈哈～～～\" --- ### 2025年12月21日 **主题：戒律与体质——应机教化** **背景**：读律宗《四分律行事钞资持记》 **一、体质与修行的关系**",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8235680888579991,
+      "maxScore": 0.8235680888579991,
+      "firstRecalledAt": "2026-04-08T00:39:07.553Z",
+      "lastRecalledAt": "2026-04-08T00:39:07.553Z",
+      "queryHashes": [
+        "80f616000e6b"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "使命",
+        "完成",
+        "既然如此",
+        "接下",
+        "来讲",
+        "也就",
+        "重要",
+        "你们"
+      ]
+    },
+    "memory:memory/2026-03-12.md:780:814": {
+      "key": "memory:memory/2026-03-12.md:780:814",
+      "path": "memory/2026-03-12.md",
+      "startLine": 780,
+      "endLine": 814,
+      "source": "memory",
+      "snippet": "> \"人生就这么长，愿意此生解脱的就抓紧，毕竟大家普遍已到中年，时间上也不太充裕了。愿意再拖着下辈子重来的，就慢慢修。只要不堕落、有进步就行，都挺好\" --- #### 13:39 - 顿悟与自嘲 [...] > \"就这么简单，就这么简单，难以置信地简单。半辈子过去了，读那么多书，练那么多法门，全都弯弯绕。说白了，啥我见，身见，我执，法执，这个界那个界，这层天那层天的，你一念放下不就得了么！\" **关键认知**： - 所有理论、法门、境界描述——弯弯绕 - 本质：一念放下 - **难点**：放不下 **对\"口头禅\"的批判**： > \"都说放下，放空，做减法，淡泊名利，明心见性。小嘴叭叭叭，一个比一个会说，这谁也没做到呀。\" **自嘲**： > \"唉呀哈哈哈哈哈\" --- ### 2026年3月3日 #### 13:29 - 悲心发起（重要） **背景**：春节回北京，目睹身边人的衰老与痛苦 | 对象 | 状态 | |------|------| | 爷爷奶奶 | 八十几岁，突然瘸了，像泄气的皮球，认不出人 | | 表姐 | 家门口迷路，脑子越来越糊涂 | | 同学（大律师） | 严重肾病 | | 表哥 | 肠癌晚期，痛不欲生 | | 其他人 | 三高、结节、腰疼、颈椎疼、头晕、便秘 | **对比自己**：",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8043534390609157,
+      "maxScore": 0.8043534390609157,
+      "firstRecalledAt": "2026-04-08T00:39:07.553Z",
+      "lastRecalledAt": "2026-04-08T00:39:07.553Z",
+      "queryHashes": [
+        "80f616000e6b"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "人生",
+        "这么",
+        "愿意",
+        "此生",
+        "解脱",
+        "抓紧",
+        "毕竟",
+        "大家"
+      ]
+    },
+    "memory:memory/2026-03-27.md:1:47": {
+      "key": "memory:memory/2026-03-27.md:1:47",
+      "path": "memory/2026-03-27.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# 2026-03-27 记忆日志 ## 11:35 [会话启动] 新会话启动 - 读取 SOUL.md、USER.md、MEMORY.md - 回顾昨日记忆（2026-03-26） - 当前重点项目：诺丽果SCI论文（每天20:00强制函数执行） --- ## 11:37 [系统优化] A股两市行情数据每日更新任务优化 ### 任务流程完善 - 将可视化步骤整合到 `update_daily_market_data.py` 最后一步 - 数据下载 → 处理 → 可视化（自动调用R脚本） - 修改定时任务执行时间：8:45 → 9:30（解决Tushare数据延迟问题） ### 文件清理 - 删除15个测试/废弃脚本 - `finance/scripts/` 仅保留2个核心文件： - `update_daily_market_data.py` - `visualize_market_data_plotly_dual.R` --- ## 11:46 [定时任务检查] 今日任务状态 | 任务 | 时间 | 状态 | |------|------|------| | A股两市行情数据每日更新 | 08:45 | ❌ 未执行（已调整至9:30） | | 莫大仙岳居阅读-上午 | 10:00 | ✅ 完成 | | 期刊论文日报 | 09:30 | ❌ 失败（API rate limit） | | 莫大仙岳居阅读-下午 | 15:00 | ⏳ 待执行 | --- ## 14:46 [Skill审查] flyai skill 安全审查与安装 ### 审查结果",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8016493604742277,
+      "maxScore": 0.8016493604742277,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "soul.md",
+        "user.md",
+        "memory.md",
+        "update-daily-market-data.py",
+        "删除15个测试/废弃脚本",
+        "finance/scripts",
+        "莫大仙岳居阅读-上午",
+        "莫大仙岳居阅读-下午"
+      ]
+    },
+    "memory:memory/2026-03-25.md:123:160": {
+      "key": "memory:memory/2026-03-25.md:123:160",
+      "path": "memory/2026-03-25.md",
+      "startLine": 123,
+      "endLine": 160,
+      "source": "memory",
+      "snippet": "| **Tushare** | `margin` / `margin_detail` 系列 | 个股融资数据 | 需自行汇总到行业 | **当前限制**: - ❌ 无直接获取\"行业板块融资净流入\"的API - ✅ 只能获取全市场汇总数据 **昨天数据** (2026-03-24): - 融资余额: 2.474 万亿元 - 区间净流入: 8.097 亿股 - 超大单净流入: +214.6 亿元 --- ### 三、各数据源特点速查 | 数据源 | 优势 | 劣势 | 适用场景 | |--------|------|------|----------| | **Akshare** | 免费、Python原生、数据完整、无调用限制 | 偶尔网络不稳定 | 日常数据抓取、批量下载 | | **东财技能** | 自然语言查询、覆盖广(宏观/金融/股票)、无需写代码 | 无法获取行业融资细分、依赖API Key | 快速查询、复杂条件筛选 | | **Tushare** | 专业金融数据、数据质量高 | 免费版调用次数限制严格(2次/天) | 专业分析、高频数据 | --- ### 四、关键代码片段备忘 **Akshare 国债收益率**: ```python import akshare as ak df = ak.bond_zh_us_rate(start_date='20230325') # 返回: 日期、中国国债(2/5/10/30年)、美国国债(2/5/10/30年) ``` **东财 宏观数据查询**: ```bash # 配置API Key $env:EM_",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.7842837500888629,
+      "maxScore": 0.7842837500888629,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "网络",
+        "margin-detail",
+        "2.474",
+        "8.097",
+        "214.6",
+        "宏观/金融/股票",
+        "2次/天",
+        "ak.bond-zh-us-rate"
+      ]
+    },
+    "memory:memory/2026-03-16.md:1:36": {
+      "key": "memory:memory/2026-03-16.md:1:36",
+      "path": "memory/2026-03-16.md",
+      "startLine": 1,
+      "endLine": 36,
+      "source": "memory",
+      "snippet": "# 2026-03-16 记忆记录 ## 今日工作摘要 ### 1. OpenClaw 配置与维护 - 验证了 OpenClaw 工作目录设置：`D:\\OpenClawData\\.openclaw\\workspace` - 配置了 Tavily Search skill，用于网页搜索 - 设置了 cron job：每天早上8点自动获取期刊论文 ### 2. Journal Papers Skill 开发 开发了一个从学术期刊获取最新论文的 skill，支持以下期刊： - Food Chemistry（食品化学） - Journal of Ethnopharmacology（民族药理学） - Journal of Animal Science and Biotechnology（动物科学与生物技术） - Fish & Shellfish Immunology（鱼类与贝类免疫学） **功能特性：** - 获取最近 N 天（默认7天）上线的论文 - 使用 MyMemory API 进行中英文标题翻译 - 当 API 限流时，使用术语映射作为后备翻译 - 支持 Markdown、JSON、Text 三种输出格式 **技术实现：** - 从 RSS feed 的 description 中提取 Publication date - 解析日期格式如 \"12 June 2026\" - 添加了 1 秒延迟避免 API 限流 ### 3. 其他查询 - 查询了上一个A股交易日的市场涨跌统计 - 查询了 OpenClaw v2026.3.13 的更新内容 - 查询了儋州市的天气 - 查",
+      "recallCount": 2,
+      "dailyCount": 0,
+      "totalScore": 1.6105552282792204,
+      "maxScore": 0.831340273133849,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-09T02:48:59.003Z",
+      "queryHashes": [
+        "0d17ae4cfddf",
+        "8a7d38c2b026"
+      ],
+      "recallDays": [
+        "2026-04-08",
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "v2026.3.13",
+        "记忆",
+        "记录",
+        "今日",
+        "工作",
+        "摘要",
+        "openclaw",
+        "配置"
+      ]
+    },
+    "memory:memory/2026-03-25.md:103:130": {
+      "key": "memory:memory/2026-03-25.md:103:130",
+      "path": "memory/2026-03-25.md",
+      "startLine": 103,
+      "endLine": 130,
+      "source": "memory",
+      "snippet": "| **东财 mx-macro-data** | 自然语言查询\"美日国债收益率\" | 美国+日本 (1/3/5/7/10/20/30年) | ⭐⭐⭐⭐ 日度数据，700+交易日 | ⭐⭐⭐⭐ | | **Tushare** | `pro.yc_cb(start_date='', end_date='')` | 中国 (1/3/5/7/10/20/30年) | ⭐⭐ 仅2次/天，数据点极少 | ⭐⭐ | **最佳实践**: - 中国+美国日度数据 → **Akshare** (最完整) - 日本数据 → **东财 mx-macro-data** (唯一来源) - 完整三国数据 → 两者结合使用 **已保存文件**: - `中美国债收益率_近三年_akshare.csv` (44.2 KB, 801个交易日) - `中美日国债收益率_近三年.csv` (东财美/日数据, 72.9 KB) --- ### 二、两市融资数据获取方法 | 数据源 | 具体方法 | 覆盖范围 | 数据质量 | |--------|----------|----------|----------| | **东财 mx-finance-data** | 自然语言查询\"融资数据\" | 全市场融资余额、资金流向(超大单/大单/中单/小单) | ⭐⭐⭐ 无行业板块细分 | | **Akshare** | `stock_margin_sse()` / `stock_margin_szse()` | 沪市/深市融资汇总 | ⭐⭐ 网络不稳定 | | **Tushare** | `margin` / `marg",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.7742112583189147,
+      "maxScore": 0.7742112583189147,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "网络",
+        "mx-macro-data",
+        "1/3/5/7/10/20/30年",
+        "pro.yc-cb",
+        "start-date",
+        "end-date",
+        "仅2次/天",
+        "中美国债收益率-近三年-akshare.csv"
+      ]
+    },
+    "memory:memory/2026-03-27.md:132:169": {
+      "key": "memory:memory/2026-03-27.md:132:169",
+      "path": "memory/2026-03-27.md",
+      "startLine": 132,
+      "endLine": 169,
+      "source": "memory",
+      "snippet": "- 用户反馈：heartbeat OK 与定时任务失败存在矛盾 - 原因：heartbeat 未检查任务执行状态 ### 解决方案 #### 1. 核心组件 - **状态存储**：`logs/task-status.json` - **日志工具**：`logs/task_logger.py` - `check_all_tasks()` - 批量检查所有任务 - `format_task_report()` - 格式化异常报告 - **更新工具**：`logs/update_task_status.py` #### 2. 集成到现有任务 | 任务 | 集成方式 | 输出文件检查 | |------|----------|-------------| | A股数据更新 | Python 内置 | ✅ market_combined_data.csv | | 期刊论文日报 | Node.js 包装 | ✅ journal-papers-daily.md | | 莫大仙岳居阅读 | Python 脚本 | ❌ 无 | | 论文写作提醒 | Python 脚本 | ❌ 无 | | AI日记整理 | Python 脚本 | ✅ memory/YYYY-MM-DD.md | | 记忆提炼 | Python 脚本 | ✅ MEMORY.md | #### 3. HEARTBEAT.md 更新 - 添加任务状态检查为第一步 - 提供可执行的 Python 代码 - 有异常时输出 `[!] 定时任务异常:` 报告 ### 工作流程 ``` Cron 定时执行 → 任务脚本运行 →",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.7703075446002182,
+      "maxScore": 0.7703075446002182,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "logs/task-status.json",
+        "logs/task-logger.py",
+        "check-all-tasks",
+        "format-task-report",
+        "logs/update-task-status.py",
+        "market-combined-data.csv",
+        "node.js",
+        "journal-papers-daily.md"
+      ]
+    },
+    "memory:memory/2026-03-25.md:75:108": {
+      "key": "memory:memory/2026-03-25.md:75:108",
+      "path": "memory/2026-03-25.md",
+      "startLine": 75,
+      "endLine": 108,
+      "source": "memory",
+      "snippet": "**操作**: 下载近3年中美日三国各期国债收益率数据并保存至本地 **保存文件**: - `中美日国债收益率_近三年.csv` (74.6 KB) - `中美日国债收益率_说明.txt` **数据内容**: - 时间范围: 2023-03-26 至 2026-03-25 - 日本国债: 1/3/5/7/10/20/30年期 - 美国国债: 1/3/5/7/10/20/30年期 - 共14个指标，700+个交易日数据 **最新收益率对比** (2026-03-25): | 国家 | 1年期 | 5年期 | 10年期 | 30年期 | |------|-------|-------|--------|--------| | 日本 | 1.12% | 1.71% | 2.27% | 3.52% | | 美国 | 3.81% | 4.03% | 4.39% | 4.94% | --- ## 23:24 数据获取方法总结 (已记录) ### 一、中美日国债收益率数据获取方法 | 数据源 | 具体方法 | 覆盖范围 | 数据质量 | 推荐度 | |--------|----------|----------|----------|--------| | **Akshare** | `bond_zh_us_rate(start_date='20230325')` | 中国+美国 (2/5/10/30年) | ⭐⭐⭐⭐⭐ 日度数据，801个交易日 | ⭐⭐⭐⭐⭐ | | **东财 mx-macro-data** | 自然语言查询\"美日国债收益率\" | 美国+日本 (1/3/5",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.7532510520001933,
+      "maxScore": 0.7532510520001933,
+      "firstRecalledAt": "2026-04-08T00:46:10.480Z",
+      "lastRecalledAt": "2026-04-08T00:46:10.480Z",
+      "queryHashes": [
+        "0d17ae4cfddf"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "中美日国债收益率-近三年.csv",
+        "74.6",
+        "中美日国债收益率-说明.txt",
+        "1/3/5/7/10/20/30年期",
+        "1.12",
+        "1.71",
+        "2.27",
+        "3.52"
+      ]
+    },
+    "memory:memory/2026-03-26.md:149:194": {
+      "key": "memory:memory/2026-03-26.md:149:194",
+      "path": "memory/2026-03-26.md",
+      "startLine": 149,
+      "endLine": 194,
+      "source": "memory",
+      "snippet": "| `sh_close` | 上证指数收盘价 | 点 | | `sz_close` | 深证成指收盘价 | 点 | | `avg_close` | 沪深深成指平均收盘价 | 点 | | `total_turnover` | 两市总成交额 | 亿元 | | `margin_balance` | 两市融资余额 | 亿元 | | `short_balance` | 两市融券余额 | 亿元 | | `total_margin_balance` | 两市融资融券余额 | 亿元 | ### 最新数据（2026-03-25） - 上证指数收盘价：3,931.84 - 深证成指收盘价：13,801.00 - 平均收盘价：8,866.42 - 两市总成交额：21,798.07 亿元 - 两市融资余额：25,914.69 亿元 - 两市融券余额：178.79 亿元 - 两市融资融券余额：26,093.48 亿元 --- *自动记录于 2026-03-26 15:15* - `rzche` - 融资偿还额(元) - `rqmcl` - 融券卖出量(股) - `rqyl` - 融券余量(股) **数据范围：** 2014-09-22 至 2026-03-25（共 5,587 条记录） --- *自动记录于 2026-03-26 14:41* --- ## 16:10 [数据可视化] R语言ggplot2可视化脚本完成 ### 创建的可视化脚本 | 脚本 | 路径 | 功能 | |------|------|------| | **主可视化脚本** | `finance/script",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8455960475111077,
+      "maxScore": 0.8455960475111077,
+      "firstRecalledAt": "2026-04-08T00:47:12.599Z",
+      "lastRecalledAt": "2026-04-08T00:47:12.599Z",
+      "queryHashes": [
+        "7084a7f3602a"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "sh-close",
+        "sz-close",
+        "avg-close",
+        "total-turnover",
+        "margin-balance",
+        "short-balance",
+        "total-margin-balance",
+        "931.84"
+      ]
+    },
+    "memory:memory/2026-03-26.md:72:117": {
+      "key": "memory:memory/2026-03-26.md:72:117",
+      "path": "memory/2026-03-26.md",
+      "startLine": 72,
+      "endLine": 117,
+      "source": "memory",
+      "snippet": "- `finance/eastmoney/` - 东方财富数据源 - `finance/akshare/` - AKShare 数据源 - `finance/data/` - 其他金融数据 融资融券数据已移动到 `finance/tushare/margin_trading_sse_szse.csv` --- ## 14:41 [配置信息] Tushare API 权限与数据文件 ### Tushare 权限说明 | 项目 | 说明 | |------|------| | 当前积分 | 2000 分 | | 接口权限 | ✅ 已获得 margin 接口权限 | | 单次限制 | 最大 4000 条/请求 | | 数据范围 | 2014年9月22日至今（全部历史） | | 数据频率 | 每日更新 | ### 数据文件 **保存位置：** `finance/tushare/margin_trading_sse_szse.csv` **数据列说明：** - `trade_date` - 交易日期 - `exchange_id` - 交易所 (SSE=沪市, SZSE=深市) - `rzye` - 融资余额(元) - `rqye` - 融券余额(元) - `rzrqye` - 融资融券余额(元) - `rzmre` - 融资买入额(元) - `rzche` - 融资偿还额(元) - `rqmcl` - 融券卖出量(股) - `rqyl` - 融券余量(股) **数据范围：** 2014-09-22 至 2026-03-25（共 5,587 条记录） --- ## 15",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8442884743762247,
+      "maxScore": 0.8442884743762247,
+      "firstRecalledAt": "2026-04-08T00:47:12.599Z",
+      "lastRecalledAt": "2026-04-08T00:47:12.599Z",
+      "queryHashes": [
+        "7084a7f3602a"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "finance/eastmoney",
+        "finance/akshare",
+        "finance/data",
+        "条/请求",
+        "trade-date",
+        "exchange-id",
+        "finance",
+        "eastmoney"
+      ]
+    },
+    "memory:memory/2026-03-18.md:63:94": {
+      "key": "memory:memory/2026-03-18.md:63:94",
+      "path": "memory/2026-03-18.md",
+      "startLine": 63,
+      "endLine": 94,
+      "source": "memory",
+      "snippet": "- **成本**：建仓成本相对较高，需要更多时间消化 - **中长期结构**：完好，\"随便拱拱也到50去了\" - **策略**：持仓，不频繁操作，等大结构推进 ### 南方泵业（300145） **核心逻辑：液冷服务器泵6月利润兑现，目标20+** **核心产品**：磁悬浮泵（高端工业泵） **关键催化剂**： - **2026年6月后**：液冷服务器用泵正式产生利润 - **下半年利润兑现** → 机构重新定价 → 上涨逻辑更坚实 - **英伟达AI算力需求暴增** → 数据中心液冷需求爆发 → 南方泵业受益 **液冷泵市场逻辑**： - AI数据中心散热从风冷转向液冷，液冷泵是核心部件 - 英伟达GTC强化算力需求叙事 → 数据中心建设提速 → 液冷泵需求增长 - 南方泵业在液冷泵领域具备技术积累 - 6月后利润兑现 = 基本面验证时刻 **技术面**： - 当前现价约5元 - 近期上来三根K线，底部有量 → 期待平台整理消化 - 平台整理消化完 → 上方阻力大减 → \"蹦蹦蹦\" **莫大仓位规划**： - 目标：等到10元卖三分之二 - 卖出后剩余仓位成本变负值 - 长期目标：20元以上 - 心态：\"套就套，后面也到20以上\"，\"老实了，出去玩，别天天看盘\" ### 中简科技",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8264153278537919,
+      "maxScore": 0.8264153278537919,
+      "firstRecalledAt": "2026-04-08T00:47:12.599Z",
+      "lastRecalledAt": "2026-04-08T00:47:12.599Z",
+      "queryHashes": [
+        "7084a7f3602a"
+      ],
+      "recallDays": [
+        "2026-04-08"
+      ],
+      "conceptTags": [
+        "成本",
+        "相对",
+        "需要",
+        "更多",
+        "时间",
+        "消化",
+        "长期",
+        "结构"
+      ]
+    },
+    "memory:memory/2026-03-30.md:1:47": {
+      "key": "memory:memory/2026-03-30.md:1:47",
+      "path": "memory/2026-03-30.md",
+      "startLine": 1,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "# 2026-03-30 记忆记录 ## 10:20-10:40 美国国债收益率工作流 Skill 化 ### 完成工作 - 创建了 `us-treasury-yields` Skill 完整结构 - 编写了 `SKILL.md` 说明文档 - 编写了 `_meta.json` 元数据文件 - 将 Python 和 R 脚本整理到 `scripts/` 目录 - 数据输出路径改为 `data/` 目录 - 路径配置改为相对于 Skill 根目录 ### Skill 结构 ``` skills/us-treasury-yields/ ├── SKILL.md # 说明文档 ├── _meta.json # 元数据 ├── scripts/ │ ├── update_us_treasury_data.py # Python数据更新 │ └── us_treasury_workflow_v2.R # R可视化脚本 └── data/ # 数据输出目录 ``` ### 关键配置 - 数据文件: `data/us_treasury_yields_all_terms.csv` - 可视化输出: `data/us_treasury_all_terms.html` - 依赖: mx-macro-data Skill - 建议定时: 每周一上午9点（美东时间） ### 可视化优化 - 图例移到顶部，节省底部空间 -",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8541234766007236,
+      "maxScore": 0.8541234766007236,
+      "firstRecalledAt": "2026-04-09T02:48:59.003Z",
+      "lastRecalledAt": "2026-04-09T02:48:59.003Z",
+      "queryHashes": [
+        "8a7d38c2b026"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "20-10",
+        "us-treasury-yields",
+        "skill.md",
+        "meta.json",
+        "skills/us-treasury-yields",
+        "update-us-treasury-data.py",
+        "us-treasury-workflow-v2.r",
+        "data/us-treasury-all-terms.html"
+      ]
+    },
+    "memory:memory/2026-03-30.md:35:56": {
+      "key": "memory:memory/2026-03-30.md:35:56",
+      "path": "memory/2026-03-30.md",
+      "startLine": 35,
+      "endLine": 56,
+      "source": "memory",
+      "snippet": "- 范围滑块高度减小到 8% --- # 2026-03-30 日记 ## 今日重要事件 - **10:20-10:40**: 完成美国国债收益率工作流 Skill 化，创建了完整的 `us-treasury-yields` Skill ## 用户状态更新 - 无新增状态更新 ## 关键决策/约定 - 美国国债收益率 Skill 建议定时：每周一上午9点（美东时间）运行 - 数据输出路径标准化为相对于 Skill 根目录的 `data/` 目录 ## 明日待办 - 无明确待办事项 --- 日记生成时间: 2026-03-30 23:40 (Asia/Shanghai)",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8537536403293527,
+      "maxScore": 0.8537536403293527,
+      "firstRecalledAt": "2026-04-09T02:48:59.003Z",
+      "lastRecalledAt": "2026-04-09T02:48:59.003Z",
+      "queryHashes": [
+        "8a7d38c2b026"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "20-10",
+        "us-treasury-yields",
+        "关键决策/约定",
+        "asia/shanghai",
+        "范围",
+        "高度",
+        "减小",
+        "日记"
+      ]
+    },
+    "memory:memory/2026-03-16.md:29:47": {
+      "key": "memory:memory/2026-03-16.md:29:47",
+      "path": "memory/2026-03-16.md",
+      "startLine": 29,
+      "endLine": 47,
+      "source": "memory",
+      "snippet": "- 查询了上一个A股交易日的市场涨跌统计 - 查询了 OpenClaw v2026.3.13 的更新内容 - 查询了儋州市的天气 - 查询了英伟达 GTC 2026 大会的重要活动 - 记录了\"金字塔原理\"用于规范思考和写作 ### 4. 技能开发 - 开发了 `journal-papers` skill - 配置了 `tavily-search` skill 到 OpenClaw ## 文件位置 - Journal Papers Skill: `D:\\OpenClawData\\.openclaw\\workspace\\skills\\journal-papers\\` - 论文日报输出: `D:\\OpenClawData\\.openclaw\\workspace\\journal-papers-daily.md` ## 定时任务 - Cron job ID: `48b28cb8-cc55-40c9-80f2-7451eece1727` - 执行时间: 每天早上 8:00 - 任务内容: 自动获取并翻译最新期刊论文",
+      "recallCount": 1,
+      "dailyCount": 0,
+      "totalScore": 0.8380172366169409,
+      "maxScore": 0.8380172366169409,
+      "firstRecalledAt": "2026-04-09T02:48:59.003Z",
+      "lastRecalledAt": "2026-04-09T02:48:59.003Z",
+      "queryHashes": [
+        "8a7d38c2b026"
+      ],
+      "recallDays": [
+        "2026-04-09"
+      ],
+      "conceptTags": [
+        "v2026.3.13",
+        "journal-papers",
+        "tavily-search",
+        "journal-papers-daily.md",
+        "查询",
+        "一个",
+        "交易",
+        "市场"
+      ]
+    }
+  }
+}

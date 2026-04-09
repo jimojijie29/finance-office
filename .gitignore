@@ -22,3 +22,12 @@ __pycache__/
 .vscode/
 *.swp
 *.swo
+# 忽略临时可视化图表依赖
+*_files/
+*.html
+
+# 忽略妙想 API 生成的临时宏观数据
+miaoxiang/mx_macro_data/mx_macro_data_*.csv
+miaoxiang/mx_macro_data/mx_macro_data_*.txt
+skills/mx-macro-data/miaoxiang/mx_macro_data/mx_macro_data_*.csv
+skills/mx-macro-data/miaoxiang/mx_macro_data/mx_macro_data_*.txt

@@ -21,13 +21,12 @@ suppressPackageStartupMessages({
 # 配置
 # ============================================
 CONFIG <- list(
-  # 输入文件路径 (使用相对于finance/目录的路径)
-  # 注意: 此脚本应在 finance/Money_Supply_Tightness_vs_SP500/ 目录下执行
-  treasury_file = "../us_treasury_workflow/data/us_treasury_yields_all_terms.csv",
-  sp500_file = "../Global-Markets/data/SP500_History.csv",
+  # 输入文件路径 (从 workspace 根目录执行)
+  treasury_file = "finance/us_treasury_workflow/data/us_treasury_yields_all_terms.csv",
+  sp500_file = "finance/Global-Markets/data/SP500_History.csv",
   
   # 输出文件
-  output_file = "yield_spread_sp500_interactive.html",
+  output_file = "finance/Money_Supply_Tightness_vs_SP500/yield_spread_sp500_interactive.html",
   
   # 利差计算: 短期期限 - 长期期限
   short_term = "X3月",    # 3个月

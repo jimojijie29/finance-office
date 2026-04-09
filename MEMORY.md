@@ -12,9 +12,9 @@ _这是凯的专属记忆库，仅在主会话中加载。_
 
 ## 当前重点
 
-- 📄 裸花紫珠作为动物饲料添加剂 SCI论文 → 目标 JCR Q1（待启动）
+- 📄 裸花紫珠作为动物饲料添加剂 SCI论文 → 目标 JCR Q1（🔄 持续推进中）
 - 📊 《海南省南药产业发展研究报告》编写（✅ 已完成）
-- 📄 诺丽果水果保鲜 SCI论文（🔄 进行中，初稿365字，每天20:00强制函数执行）
+- 📄 诺丽果水果保鲜 SCI论文（🔄 进行中，每日目标300字，每天20:00强制函数执行）
 
 ## 技术偏好
 
@@ -131,6 +131,24 @@ _这是凯的专属记忆库，仅在主会话中加载。_
   - 标普500: `Global-Markets/data/SP500_History.csv`
 - **关键指标**: 当前利差倒挂 -0.61%，倒挂时间占比 58.1%
 - **可视化优化**: 2026-04-03 将3M-10Y利差线从虚线改为红色实线
+
+### 金融数据工作流优化记录（2026-04-03）
+
+#### 1. A Share 目录结构优化
+- **数据目录迁移**: `tushare/` → `data/`
+- **嵌套目录清理**: 删除重复的 `A Share/A Share/` 目录
+- **文档更新**: README.md、DATA_UPDATE_SCHEDULE.md 同步更新路径
+
+#### 2. R 脚本路径修复
+| 工作流 | 修复内容 |
+|--------|----------|
+| A Share | R 可视化脚本工作目录改为 `finance/A Share/`，路径改为 `data/...` |
+| us_treasury_workflow | HTML 输出路径从相对路径改为 `../us_treasury_all_terms.html` |
+| HKD-Exchange-Rate-vs-HSI | 修复 workflow.py Unicode 编码问题（✅❌⚠️ → [OK]/[ERROR]/[WARN]） |
+| Money_Supply_Tightness_vs_SP500 | 输入文件路径添加 `../` 前缀以正确引用父目录数据 |
+
+#### 3. 可视化图表优化
+- **Money_Supply_Tightness_vs_SP500**: 3M-10Y 利差线从虚线改为红色实线，线宽从 2 改为 2.5
 
 ### 定时任务汇总
 
@@ -292,7 +310,33 @@ _这是凯的专属记忆库，仅在主会话中加载。_
 - ❌ `qwen3.5`: 有严重思考过度问题，翻译结果藏在 reasoning_content 中
 - ✅ `qwen3-vl-8b`: 无思考过程，翻译质量高，稳定性好
 
+## 系统维护记录
+
+### 2026-04-08 定时任务修复
+修复了3个定时任务的问题：
+
+| 任务 | 问题 | 修复内容 |
+|------|------|----------|
+| AI日记 (76868653) | 模型不存在 + 超时 | 改用 `model: "default"`，timeout 300s |
+| 投资研究提醒 (e824ad25) | payload.kind 错误 | `agentTurn` + `isolated`，timeout 120s |
+| 记忆提炼 (2c9a4986) | 模型不存在 | 改用 `model: "default"`，timeout 300s |
+
+### 2026-04-08 金融数据工作流
+全部5个工作流成功执行：
+- ✅ A Share（上证指数、深证成指、融资融券）
+- ✅ Global-Markets（美股三大指数 + 黄金/白银）
+- ✅ HKD-Exchange-Rate-vs-HSI（USD/HKD汇率 + 恒生指数 + 可视化）
+- ✅ us_treasury_workflow（美债收益率数据 + 可视化）
+- ✅ Money_Supply_Tightness_vs_SP500（3M-10Y利差与标普500对比分析）
+
+### 2026-04-08 微信插件问题
+- 插件已安装 (v2.1.7) 并启用
+- 扫码登录成功
+- **问题**：启动时出现 `RangeError: Maximum call stack size exceeded` 错误
+- **可能原因**：OpenClaw 版本与微信插件兼容性问题
+- **状态**：待解决
+
 ---
 
 *此文件由 cron job 从 daily memory 自动提炼更新*
-*最后更新：2026-04-02*
+*最后更新：2026-04-08*
