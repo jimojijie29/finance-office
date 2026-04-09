@@ -287,11 +287,42 @@ D:\OpenClawData\.openclaw\workspace\finance\HKD-Exchange-Rate-vs-HSI\
 
 ---
 
+## 7. 数据源变更记录
+
+### 2026-04-09 重要更新
+
+**问题**: USD/HKD 汇率数据停留在 2026-04-02，无法获取最新数据
+
+**原因**: 东方财富API (`119.USDHKD`) 受网络代理影响，无法正常获取数据
+
+**解决方案**: 改用 mx-macro-data skill 获取数据
+
+| 数据 | 原方案 | 新方案 | 状态 |
+|------|--------|--------|------|
+| USD/HKD 汇率 | 东方财富API (`119.USDHKD`) | mx-macro-data skill | 已切换 |
+| 恒生指数 HSI | 东方财富API (`100.HSI`) | mx-macro-data skill | 已切换 |
+
+**数据转换说明**:
+mx-macro-data 返回的是 HKD/USD（倒数），需要转换为 USD/HKD：
+```python
+value = round(1.0 / value, 4)
+```
+
+**相关脚本**:
+- `update_data.py` - 主脚本（当前使用 mx-macro-data skill）
+- `update_hkd_mx.py` - USD/HKD 汇率更新（mx-macro-data）
+- `update_hsi_mx.py` - 恒生指数更新（mx-macro-data）
+- `update_data_legacy.py` - 历史版本（东方财富API，备用）
+
+---
+
 ## 参考
 
 - 东方财富网: https://quote.eastmoney.com/
 - 恒生指数官网: https://www.hsi.com.hk/
+- mx-macro-data skill: `skills/mx-macro-data/`
 
 ---
 
-*记录时间: 2026-03-31*
+*记录时间: 2026-03-31*  
+*更新时间: 2026-04-09（添加数据源变更记录）*

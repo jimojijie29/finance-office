@@ -2,10 +2,17 @@
 """
 HKD-Exchange-Rate-vs-HSI 数据增量更新脚本 - 修复版
 处理不同格式的CSV文件
+
+【历史版本】使用东方财富API获取数据
+- USD/HKD: 使用 secid='119.USDHKD' (可能受网络代理影响)
+- HSI: 使用 secid='100.HSI'
+
+【状态】已弃用，保留用于参考和切换
+【替代方案】update_data.py (当前使用 mx-macro-data skill)
 """
 
 import pandas as pd
-import akshare as ak
+import requests
 from datetime import datetime, timedelta
 import sys
 import os
@@ -21,29 +28,30 @@ def get_last_date(filepath):
     except FileNotFoundError:
         return None
 
-def fetch_forex_data(symbol, start_date, end_date):
-    """从akshare获取外汇数据"""
+def fetch_data(secid, start_date, end_date):
+    """从东方财富API获取数据"""
+    url = "https://push2his.eastmoney.com/api/qt/stock/kline/get"
+    params = {
+        "secid": secid,
+        "fields1": "f1,f2,f3,f4,f5,f6",
+        "fields2": "f51,f52,f53,f54,f55,f56,f57,f58,f59,f60,f61",
+        "klt": "101",
+        "fqt": "0",
+        "beg": start_date,
+        "end": end_date,
+        "lmt": "10000"
+    }
+    
     try:
-        df = ak.forex_hist_em(symbol=symbol)
-        # 转换日期格式
-        df['日期'] = pd.to_datetime(df['日期'])
-        start_dt = pd.to_datetime(start_date, format='%Y%m%d')
-        end_dt = pd.to_datetime(end_date, format='%Y%m%d')
+        response = requests.get(url, params=params, timeout=30)
+        data = response.json()
         
-        # 过滤日期范围
-        df_filtered = df[(df['日期'] >= start_dt) & (df['日期'] <= end_dt)]
-        
-        # 转换为klines格式
-        klines = []
-        for _, row in df_filtered.iterrows():
-            # 格式: date,open,close,high,low,amplitude,pct_change,change,volume,amount,turnover
-            line = f"{row['日期'].strftime('%Y-%m-%d')},{row['开盘']},{row['收盘']},{row['最高']},{row['最低']},{row['振幅']},{row['涨跌幅']},{row['涨跌额']},0.0,0.0,0.0"
-            klines.append(line)
-        
-        return klines
+        if data.get('rc') == 0 and data.get('data'):
+            return data['data'].get('klines', [])
     except Exception as e:
         print(f"请求失败: {e}")
-        return []
+    
+    return []
 
 def parse_klines(klines):
     """解析K线数据为DataFrame"""
@@ -69,7 +77,7 @@ def parse_klines(klines):
     
     return pd.DataFrame(records)
 
-def update_csv(filepath, symbol, name, use_akshare=False):
+def update_csv(filepath, secid, name):
     """更新单个CSV文件"""
     print(f"\n{'='*50}")
     print(f"更新: {name}")
@@ -96,10 +104,7 @@ def update_csv(filepath, symbol, name, use_akshare=False):
     print(f"获取范围: {start_date} 至 {end_date}")
     
     # 获取新数据
-    if use_akshare:
-        klines = fetch_forex_data(symbol, start_date, end_date)
-    else:
-        klines = fetch_data(symbol, start_date, end_date)
+    klines = fetch_data(secid, start_date, end_date)
     
     if not klines:
         print("无新数据")
@@ -132,15 +137,10 @@ def update_csv(filepath, symbol, name, use_akshare=False):
     # 保存（保持原始大小写格式）
     df_combined.to_csv(filepath, index=False, encoding='utf-8-sig')
     
-    print(f"更新完成: {len(df_existing)} → {len(df_combined)} 条")
+    print(f"更新完成: {len(df_existing)} -> {len(df_combined)} 条")
     print(f"时间范围: {df_combined['date'].min()} 至 {df_combined['date'].max()}")
     
     return True
-
-def log(message):
-    """打印带时间戳的日志"""
-    timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    print(f"[{timestamp}] {message}")
 
 def main():
     try:
@@ -152,32 +152,11 @@ def main():
         # 配置路径
         data_dir = 'HKD-Exchange-Rate-vs-HSI/data'
         
-        # 更新USD/HKD (使用mx-macro-data skill)
-        log("更新 USD/HKD 汇率 (使用 mx-macro-data skill)...")
-        import subprocess
-        result = subprocess.run(
-            ['python', os.path.join(os.path.dirname(__file__), 'update_hkd_mx.py')],
-            capture_output=True,
-            text=True,
-            timeout=120
-        )
-        if result.returncode == 0:
-            log("USD/HKD 汇率更新成功")
-        else:
-            log(f"USD/HKD 汇率更新失败: {result.stderr}")
+        # 更新USD/HKD
+        update_csv(os.path.join(data_dir, 'HKD_USD_Exchange_Rate.csv'), '119.USDHKD', 'USD/HKD 汇率')
         
-        # 更新HSI (使用mx-macro-data skill)
-        log("更新恒生指数 (使用 mx-macro-data skill)...")
-        result = subprocess.run(
-            ['python', os.path.join(os.path.dirname(__file__), 'update_hsi_mx.py')],
-            capture_output=True,
-            text=True,
-            timeout=120
-        )
-        if result.returncode == 0:
-            log("恒生指数更新成功")
-        else:
-            log(f"恒生指数更新失败: {result.stderr}")
+        # 更新HSI
+        update_csv(os.path.join(data_dir, 'Hang_Seng_Index.csv'), '100.HSI', '恒生指数')
         
         print("\n" + "="*60)
         print("所有更新完成!")
